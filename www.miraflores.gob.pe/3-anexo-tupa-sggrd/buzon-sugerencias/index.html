@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Mirrored from www.miraflores.gob.pe/buzon-sugerencias/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Nov 2022 00:17:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+	<title>Modulo de Entrevistas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="mc_web/web_recursos/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="mc_web/web_recursos/css/citas3860.css?v=1">
+	<link rel="stylesheet" type="text/css" href="mc_web/web_recursos/css/jquery.datetimepicker.css">
+	<script src="../../www.google.com/recaptcha/apide3a.js?hl=es" async defer></script>
+	<style type="text/css">
+		.form-control{
+			height: auto;
+		}
+	</style>
+</head>
+<body>	
+	<div class="container pagina">
+		<div class="hidden-xs col-md-1">&nbsp;</div>
+		<div class="col-xs-12 col-md-10 body-modulo">
+			<div class="row" style="background:#FFF;border-radius:8px;padding:7px;">
+				<div class="col-xs-7 col-md-4">
+					<div class="row">
+						<div class="col-xs-11 col-md-11">
+							<img src="mc_web/web_recursos/img/logo_miraflores_v3.png" class="img-responsive" alt="Logo Municipalidad de miraflores">
+						</div>
+					</div>
+				</div>
+				<div class="hidden-xs col-md-5">&nbsp;</div>
+				<div class="col-xs-5 col-md-3">
+					&nbsp;
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="head-azul text-center">
+						Registro de Sugerencias
+					</div>
+					<div class="head-rojo text-center">
+						Nos interesa saber tu opinión y tus sugerencias sobre como podemos mejorar la gestión y servicios que la Municipalidad te ofrece
+					</div>
+				</div>
+			</div>
+			<form id="form-citas" action="https://www.miraflores.gob.pe/buzon-sugerencias/enviaSugerencia.php" method="POST" enctype="multipart/form-data">
+													
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Datos personales</h4>
+						<hr class="hrcita"/>
+					</div>
+					<hr/>	
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						<div class="form-group">
+							<label>Nombres <span class="sp-requerido">(*)</span></label>
+							<input type="text" name="nombres" id="nombres" class="form-control"value="">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Apellido Paterno <span class="sp-requerido">(*)</span></label>
+							<input type="text"  name="appaterno" id="appaterno" class="form-control"value="">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Apellido Materno <span class="sp-requerido">(*)</span></label>
+							<input type="text" name="apmaterno" id="apmaterno" class="form-control"value="">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Documento de Identidad</h4>
+						<hr class="hrcita"/>
+					</div>
+					<hr/>	
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						<div class="form-group">
+							<label>Tipo de Documento <span class="sp-requerido">(*)</span></label>
+							<select name="tdocumento" id="tdocumento" class="form-control">
+								<option>DNI</option>
+								<option>RUC</option>
+								<option>Carnet de Extranjeria</option>
+								<option>Pasaporte</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Número de Documento <span class="sp-requerido">(*)</span></label>
+							<input type="text" name="ndocumento" id="ndocumento" class="form-control" value="">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Medios de Contacto</h4>
+						<hr class="hrcita"/>
+					</div>
+					<hr/>	
+				</div>
+
+				<div class="row">
+					<div class="col-md-5">
+						<div class="form-group">
+							<label>Correo Electrónico <span class="sp-requerido">(*)</span></label>
+							<input type="text" name="correoe" id="correoe" class="form-control"value="">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Teléfono de Contacto <span class="sp-requerido">(*)</span></label>
+							<input type="text" name="telefono" id="telefono" class="form-control" value="">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Mensaje</h4>
+						<hr class="hrcita"/>
+					</div>
+					<hr/>	
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label>Asunto <span class="sp-requerido">(*)</span></label>
+							<input type="text" name="asunto" id="asunto" class="form-control" value="">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label>Mensaje <span class="sp-requerido">(*)</span></label>
+							<textarea name="motivo" id="motivo" cols="30" rows="4" class="form-control" maxlength="400" onkeyup="cuentaCaracteres()"></textarea>
+							<div class="text-right" style="padding-top:5px;color:#0E76B8;"><i id="nrocaracteres">&nbsp;</i></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-7">
+						<input  class="form-control" type="file" name="adjunto[]" accept=".pdf,.jpg,.png" multiple>
+					
+					</div>
+					<div class="col-md-5">
+						<div class="g-recaptcha" data-sitekey="6LfdxeIUAAAAAG6IzxLJvA-y6szR3_VVQdAunjdu"></div>
+					</div>
+				</div>
+
+				<p>&nbsp;</p>
+
+				
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-4 text-center">
+						<button type="submit" class="form-control btn-success">Enviar Sugerencia</button>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+
+				<p>&nbsp;</p>
+
+			</form>
+		</div>
+		<div class="hidden-xs col-md-1">&nbsp;</div>
+	</div>
+	<p>&nbsp;</p>
+	<div class="container">
+		<div class="col-md-1">&nbsp;</div>
+		<div class="col-md-10 text-left">
+			<span class="texto-pie">
+				Av. Larco 400 - Miraflores - Lima <br/>
+				&copy; 2016 - Municipalidad de Miraflores 
+			</span>
+		</div>
+		<div class="col-md-1">&nbsp;</div>
+	</div>
+	<p>&nbsp;</p>
+	<script type="text/javascript" src="mc_web/web_recursos/js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="mc_web/web_recursos/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="mc_web/web_recursos/js/jquery.datetimepicker.js"></script>
+	<script type="text/javascript">
+		jQuery.datetimepicker.setLocale('es');
+		
+		$("#form-citas").submit(function(e) {
+			if($("#ndocumento").val()==""){
+				alert("Debe ingresar su numero de documento");
+				$("#ndocumento").focus();
+				return false;
+			}else if($("#nombres").val()==""){
+				alert("Debe ingresar su nombre");
+				$("#nombres").focus();
+				return false;
+			}else if($("#appaterno").val()==""){
+				alert("Debe ingresar su apellido paterno");
+				$("#appaterno").focus();
+				return false;
+			}else if($("#apmaterno").val()==""){
+				alert("Debe ingresar su apellido materno");
+				$("#apmaterno").focus();
+				return false;
+			}else if($("#correoe").val()==""){
+				alert("Debe ingresar su correo electronico");
+				$("#correoe").focus();
+				return false;
+			}
+		});
+
+		
+		function cuentaCaracteres(){
+			var limite = 400;
+			var resto = limite - $("#motivo").val().length;
+			var texto = "";
+			
+			if(resto>1){
+				texto = "Quedan "+resto+" caracteres";
+			}else if(resto==0){
+				texto = "No puede ingresar mas caracteres";
+			}else{
+				texto = "Queda "+resto+" caracter";
+			}
+				
+			$("#nrocaracteres").html(texto);
+		}
+		
+		$(document).ready(function(){
+			cuentaCaracteres();
+		});
+		
+	</script>
+</body>
+
+<!-- Mirrored from www.miraflores.gob.pe/buzon-sugerencias/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Nov 2022 00:17:09 GMT -->
+</html>

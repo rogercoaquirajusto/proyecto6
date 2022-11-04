@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<!-- Mirrored from www.miraflores.gob.pe/citas-plataforma/?a=1 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Nov 2022 00:19:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+	<title>Modulo de Citas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/css/citas.css?v=1">
+	<link rel="stylesheet" type="text/css" href="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/css/jquery.datetimepicker.css">
+	<link rel="stylesheet" type="text/css" href="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/css/datepicker.min.css">
+</head>
+<style>
+.disables{
+	pointer-events: none;
+	cursor: not-allowed !important;
+}
+.font{
+    font-size: 15px;
+}
+.tabla-personalizada{
+	width: 100% !important;
+	font-size: 16px !important;
+}
+</style>
+<body>
+<div id="contenedor_carga">
+<div id="carga"></div>
+</div>
+	<div class="result" id="HTMLtoPDF"></div>
+	<div class="container pagina">
+		<div class="hidden-xs col-md-1">&nbsp;</div>
+		<div class="col-xs-12 col-md-10 body-modulo">
+						    <div class="row" style="background:#FFF;border-radius:8px;padding:7px;">
+				<div class="col-xs-7 col-md-4">
+					<div class="row">
+						<div class="col-xs-11 col-md-11">
+							<img src="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/img/logo_miraflores_v3.png" class="img-responsive" alt="Logo Municipalidad de miraflores">
+						</div>
+					</div>
+				</div>
+				<div class="hidden-xs col-md-5">&nbsp;</div>
+				<div class="col-xs-5 col-md-3">
+					<div class="row">
+						<div class="hidden-xs col-md-3">&nbsp;</div>
+						<div class="col-xs-12 col-md-9">
+							<!--img src="< ?php echo Constantes::IMAGENES; ?>/logo-ricardo-palma-web.png" class="img-responsive" alt="Logo Ricardo Palma"-->
+						</div>
+					</div>
+				</div>
+			    </div>
+						<div class="row">
+				<div class="col-md-12">
+					<div class="head-azul text-center">
+						Registra tu Atención Presencial					</div>
+					<div class="head-rojo text-center">
+						<b>Para su correcto funcionamiento se recomienda usar los navegadores "Google Chrome", "Mozilla Firefox" y "Opera"</b>
+					</div>
+				</div>
+			</div>
+			<form id="form-citas" name="form-citas">
+				<div class="row">
+					<div class="col-xs-12 col-md-3">
+						<div class="form-group">
+							<label>Fecha</label>
+							<div>
+								<div class="col-xs-4 col-md-4 padd-dos">
+									<input type="text" class="form-control" name="fecaDia" id="fecaDia" value="03" disabled>
+								</div>
+								<div class="col-xs-4 col-md-4 padd-dos">
+									<input type="text" class="form-control" name="fecaMes" id="fecaMes" value="11" disabled>
+								</div>
+								<div class="col-xs-4 col-md-4 padd-dos">
+									<input type="text" class="form-control" name="fecaAnio" id="fecaAnio" value="2022" disabled>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label>RUC</label>
+								<input type="text" name="ruc" id="ruc" class="form-control" value="20131377224" disabled>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label>Razon Social</label>
+								<input type="text" name="rsocial" id="rsocial" class="form-control" value="Municipalidad de Miraflores" disabled>
+							</div>
+						</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Datos de la Atención</h4>
+					</div>
+				</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Unidad Orgánica Requerida <span class="sp-requerido">(*)</span></label>
+								<select class="form-control" name="areaRequerida" id="areaRequerida" onchange="cargaTxtCampo(this.id);chat(this)" >
+									<option value="optnull">Seleccione</option>
+								</select>
+							
+								<input type="hidden" name="areaRequeridaTxt" id="areaRequeridaTxt" />
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+																<label>Ubicación <span class="sp-requerido">(*)</span></label>
+								<input type="text" class="form-control" id="ubicacion" readonly>
+															</div>
+						</div>
+					</div>
+				<div class="row">
+					<div class="col-md-4" >
+						<div class="form-group" >
+							<label>Código de Atención:<spam class="sp-requerido">(*)</spam> </label>
+							<input type="text" name="token" id="token" class="form-control" value="" style="text-transform:uppercase;">
+						</div>
+					</div>
+					<div class="col-md-2" style="height:70px; ">
+						<button class=" btn-primary btn btn-block" style="margin-top:25px; background-color: #0E76B8 !important" id="validar" type="button" >Validar</button>
+					</div>
+											<div class="col-md-3" style="padding-right:0px">
+							<div id= "textocultar" class="form-group ">
+								<label >Consigue tu código  de atención ingresando al siguiendo link >><br> (Horario Ate. 08:00am a 05:00 p.m) </label>
+							</div>
+						</div>
+						<div id="imgocultar" class="col-md-3 text-center">
+							<a class="nav-link youtube  link1"  href="javascript:;" onclick="window.open('https://mirachat.miraflores.gob.pe/mibew/index.php/chat?locale=es&amp;group=NUM', '', 'width=500,height=700,left=200,top=30');">
+								<img src="https://www.miraflores.gob.pe/wp-content/themes/munimiraflores/web-imagenes/boton_chat.png" width="224" height="80">
+							</a>
+						</div>
+									</div>
+				<div class="row" id="contenido">
+					<div class="col-md-4" id="divfecha">
+						<div class="form-group" id="container">
+							<label>Fecha <span class="sp-requerido">(*)</span></label>
+							<input type="text" id="fechaDisponible_dp" data-zdp_readonly_element="true" class="form-control text-center">
+							<input name="dcita" id="dcita" type="hidden" class="form-control">
+							<input name="dcitaTxt" id="dcitaTxt" type="hidden"  class="form-control" onchange="cargaHoras(this);cargaTxtCampo(this.id, 'attr');">
+						</div>
+					</div>  
+					<div class="col-md-8">
+						<div class="form-group">
+							<br>
+							<br>
+							<label id="labelHorario">Horario:</label>
+							<div class="col-md-8" name="hcita" id="hcita"  onchange="cargaTxtCampo(this.id);"></div>
+							<input type="hidden" name="hcitaTxt" id="hcitaTxt" />
+						</div>
+					</div>
+				</div>
+				<div class="row" id="contenido1">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label>Motivo de Cita <span class="sp-requerido" >(*)</span></label><br>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="contenido2">
+					<div class="col-md-12">
+						<div class="form-group">
+							<textarea name="motivo" disabled id="motivo" cols="30" rows="4" class="form-control" maxlength="300" onkeyup="cuentaCaracteres()"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="contenido3">
+					<div class="col-md-12">
+						<h4>Identificación del Usuario</h4>
+						<hr class="hrcita" />
+					</div>
+					<hr />
+				</div>
+
+				<div class="row" id="contenido4">
+					<div class="col-md-3">
+						<div class="form-group">
+							<label>Tipo de Documento <span class="sp-requerido">(*)</span></label>
+							<select disabled name="tdocumento" id="tdocumento" class="form-control">
+																	<option value="DNI">DNI</option>
+																	<option value="CE">CARNET DE EXTRANJERIA</option>
+																	<option value="PAS">PASAPORTE</option>
+															</select>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Número de Documento <span class="sp-requerido">(*)</span></label>
+							<input type="text" disabled name="ndocumento" id="ndocumento" class="form-control" value="" onKeyPress="return SoloNumeros(event);">
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="contenido5">
+					<div class="col-md-3">
+						<div class="form-group" id="campoNombre">
+							<label>Nombres <span class="sp-requerido">(*)</span></label>													
+							<input type="text" disabled name="nombres" id="nombres" class="form-control" value="" onkeypress="return soloLetras(event);" onKeyUp="this.value = this.value.toUpperCase()">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group" id="campoPaterno">
+							<label>Apellido Paterno <span class="sp-requerido">(*)</span></label>
+							<input type="text" disabled name="appaterno" id="appaterno" class="form-control" value="" onkeypress="return soloLetras(event);" onKeyUp="this.value = this.value.toUpperCase()">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group" id="campoMaterno">
+							<label>Apellido Materno <span class="sp-requerido">(*)</span></label>
+							<input type="text" disabled name="apmaterno" id="apmaterno" class="form-control" value="" onkeypress="return soloLetras(event);" onKeyUp="this.value = this.value.toUpperCase()">
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="contenido6">
+					<div class="col-md-3">
+						<div class="form-group">
+							<label>Teléfono de Contacto <span class="sp-requerido">(*)</span></label>
+							<input type="text" name="telefono" id="telefono" disabled class="form-control" value="" onKeyPress="return SoloNumeros(event);" onkeyup="validarTelefono();">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Correo Electrónico <span class="sp-requerido">(*)</span></label>
+							<input type="text" name="correoe" id="correoe" disabled class="form-control" value="" style="text-transform:uppercase;" onkeyup="validarCorreos(); javascript:this.value=this.value.toUpperCase();">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Confirmar Correo Electrónico <span class="sp-requerido">(*)</span></label>
+							<input type="text" name="confirmarcorreoe" disabled id="confirmarcorreoe" class="form-control" value="" style="text-transform:uppercase;" onkeyup="confirmarCorreos(); javascript:this.value=this.value.toUpperCase();">
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="contenido7">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label>Dirección:</label>
+							<input type="text" name="direccion" disabled id="direccion" class="form-control" value="" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
+						</div>
+						<hr class="hrcita" />
+					</div>
+				</div>
+
+				<br>
+				<div class="row" id="contenido8">
+					<div class="col-md-3"></div>
+					<div class="col-md-4"></div>
+					<div class="col-md-3"></div>
+						<div class="col-md-2" class="text-right mb-3">		
+							<button name="btnRegistrar" id="btnRegistrar" type="submit" disabled class="form-control btn-success">Registrar</button><br>
+						</div>					
+				</div>
+
+			</form>
+		</div>
+		<div class="hidden-xs col-md-1">&nbsp;</div>
+	</div>
+	<p>&nbsp;</p>
+	<div class="container">
+		<div class="col-md-1">&nbsp;</div>
+		<div class="col-md-10 text-left">
+			<span class="texto-pie">
+				Av. Larco 400 - Miraflores - Lima <br />
+				&copy; 2016 - Municipalidad de Miraflores
+			</span>
+		</div>
+		<div class="col-md-1">&nbsp;</div>
+	</div>
+	<div>
+		<input name="tiempoCita" id="tiempoCita" type="hidden"></input>
+		<input name="frecuencia" id="frecuencia" type="hidden"></input>
+		<input name="idMotivo" id="idMotivo" type="hidden"></input>
+		<input name="idSubMotivo" id="idSubMotivo" type="hidden"></input>
+		<input name="idToken" id="idToken" type="hidden"></input>
+		<input name="urlFile" id="urlFile" type="hidden"></input>
+	</div>
+	<p>&nbsp;</p>
+	<script type="text/javascript" src="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/js/jquery.datetimepicker.js"></script>
+	<script type="text/javascript" src="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/js/datepicker.min.js"></script>
+	<script type="text/javascript" src="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/js/jspdf.js"></script>
+    <script type="text/javascript" src="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/js/pdfFromHTML.js"></script>
+    <script type="text/javascript" src="https://www.miraflores.gob.pe/citas-plataforma/mc_web/web_recursos/js/constantes.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+	<script >
+		function getParameterByName(name) {
+		name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+		var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+		results = regex.exec(location.search);
+		return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+	</script>
+	<script>
+		window.onload = function(){
+			var myInput = document.getElementById('confirmarcorreoe');
+			myInput.onpaste = function(e) {
+				e.preventDefault();
+				alert("Escriba su correo de confirmación");
+			}
+			var contenedor = document.getElementById('contenedor_carga');
+			document.getElementById('confirmarcorreoe').style.borderColor = 'red';
+			document.getElementById('correoe').style.borderColor = 'red';
+			document.getElementById('telefono').style.borderColor = 'red';
+			contenedor.style.visibility = 'hidden';
+			contenedor.style.opacity = '0';
+			muestra_oculta('contenido');
+			muestra_oculta('contenido1');
+			muestra_oculta('contenido2');
+			muestra_oculta('contenido3');
+			muestra_oculta('contenido4');
+			muestra_oculta('contenido5');
+			muestra_oculta('contenido6');
+			muestra_oculta('contenido7');
+			muestra_oculta('contenido8');
+			muestra_oculta('labelHorario');
+			
+		}
+	</script>
+	<script type="text/javascript">
+		var mensaje = '';
+		document.getElementById('divfecha').classList.add('disables'); 
+		$(document).ready(function(){
+			$("#fechaDisponible_dp").Zebra_DatePicker({
+				always_visible: $('#container'),
+				direction: [1, 30],
+				disabled_dates: ['* * * 0,6'],
+				readonly_element: true
+			});
+			
+			$( "#fechaDisponible_dp" ).prop( "disabled", false );
+			
+		});
+	</script>
+	<script>
+		var dias = ["LUNES", "MARTES", "MIERCOLES", "JUEVES", "VIERNES", "SABADO","DOMINGO"];
+
+		function diaSemana() {
+			var x = document.getElementById("fecha");
+			alert("Día: " + dias[x.valueAsDate.getDay()]);
+			var date = new Date(x.value);
+			hidden = document.getElementById('day_of_week');
+			hidden.value = dias[date.getDay()];
+		}	
+	</script>	
+  <script> 
+    const URL=endPoints();
+    const urls = URL.rutacitas+"dbAreas/"+getParameterByName('a');
+    axios.get(urls).then(response=>{
+      let listaAreas = response.data.data;
+      listaAreas.forEach(item=>{
+        $("#areaRequerida").append("<option data-abre='"+item.abreviatura+"' data-ubicacion='"+item.ubicacion+"' data-idChat='"+item.idChat+"' value='"+item.idArea+"'>"+item.descripcion+"</option>");
+      });
+		if(getParameterByName('idArea')){
+			$("#areaRequerida").val(getParameterByName('idArea'));	
+			cargaTxtCampo('areaRequerida');
+		}
+    });
+  </script>
+  <script type="text/javascript"> 
+    
+		function nuevaCita(){
+			window.location.reload();
+		}
+		async function guardar () {
+			var parametros = {
+				"fecaAnio":$('#fecaAnio').val(),
+				"fecaMes":$('#fecaMes').val(),
+				"fecaDia":$('#fecaDia').val(),
+				"nombres":$('#nombres').val(),
+				"tdocumento":$('#tdocumento').val(),
+				"ndocumento":$('#ndocumento').val(),
+				"appaterno":$('#appaterno').val(),
+				"apmaterno":$('#apmaterno').val(),
+				"correoe":$('#correoe').val(),
+				"telefono":$('#telefono').val(),
+				"motivo":$('#motivo').val().split("'").join('"'),
+				"direccion":$('#direccion').val(),
+				"ubicacion":$("#ubicacion").val(),
+				"dcita":$('#dcita').val(),
+				"dcitaTxt":$('#dcitaTxt').val(),
+				"telefono":$('#telefono').val(),
+				"hcita":$('input[name="optradio"]:checked').val(),
+				"hcitaTxt":$('input[name="optradio"]:checked').val(),
+				"areaRequeridaTxt":$('#areaRequeridaTxt').val(),
+				"areaRequerida":$('#areaRequerida').val(),
+				"tipoAtencion":getParameterByName('a'), 
+				"idToken": $('#token').val().split(' ').join('') ,
+				"abrev":$('#areaRequerida').find(':selected').data('abre') 
+			};
+			const urlGuardarCita = URL.rutacitas +"nuevaCita";
+			let dates2 = moment($('#dcitaTxt').val(), "DD-MM-YYYY");
+			let dateFinal = moment(dates2, "YYYY-MM-DD").toDate();
+			dateFinal = moment(dateFinal).format("YYYY-MM-DD");
+			let dataRest = {
+				"nombre":$('#nombres').val(),
+				"tipoDocumento":$('#tdocumento').val(),
+				"dni":$('#ndocumento').val(),
+				"apePaterno":$('#appaterno').val(),
+				"apeMaterno":$('#apmaterno').val(),
+				"correo":$('#correoe').val(),
+				"telefono":$('#telefono').val(),
+				"motivo":$('#motivo').val().split("'").join('"'),
+				"direccon":$('#direccion').val(),
+				"ubicacion":$("#ubicacion").val(),
+ 				"dia":$('#dcita').val(),
+				"fecha":dateFinal,	
+				"telefono":$('#telefono').val(),
+				"hora":$('input[name="optradio"]:checked').val(),
+				"hcitaTxt":$('input[name="optradio"]:checked').val(),
+				"descripcionArea":$('#areaRequeridaTxt').val(),
+				"idArea":$('#areaRequerida').val(),
+				"indTipoAtencion":getParameterByName('a'), 
+				"token": $('#token').val().split(' ').join('') ,
+				"idToken": $('#idToken').val(),
+				"abreviatura":$('#areaRequerida').find(':selected').data('abre'),
+				"frecuencia":$('#frecuencia').val(),
+				"idSubMotivo": ($("#idSubMotivo").val() ==0)? null: $("#idSubMotivo").val(),
+				"tiempoCita":$('#tiempoCita').val(),
+				fechaRegistro: moment(new Date).format('YYYY-MM-DD HH:mm:ss'),
+				"plataforma": "1",
+			}
+			let dataRestCita = null;
+			$('#contenedor_carga').css('visibility','visible');
+			$('#contenedor_carga').css('opacity','1');
+			await axios.post(urlGuardarCita, dataRest).then(response=>{
+				dataRestCita = response.data;
+			}).catch(e=>{
+				console.log("Error al guardar cita");
+				console.log(e);
+			})
+			if (dataRestCita.estado) {
+				$('#urlFile').val(dataRestCita.urlArchivoAdjunto),
+				$('#contenedor_carga').css('visibility','hidden');
+				$('#contenedor_carga').css('opacity','0');
+				if(getParameterByName('a')==1){
+					$(".result").html(`<h4>`+dataRestCita.mensaje.titulo+`<span class="num_cita"></span></h4>
+										<img src="data:image/png;base64,`+dataRestCita.mensaje.imagenQR+`">
+										<br><br>
+										<div id="div_botones">
+										<input class="btn btn-primary" type="button" value="Descargar cita" href="#" onclick="mostrarFile();">
+										<input class="btn btn-primary" type="button" value="Nueva Cita" onclick="nuevaCita();">
+										<br><br>`);
+				}else{
+					$(".result").html(`<br><br>
+										<p>
+										<h4>`+dataRestCita.mensaje.titulo+`
+										<span class="num_cita"></span></h4>
+										<h4>`+dataRestCita.mensaje.subtitulo+`</h4></p>
+										<br><br>
+										<div id="div_botones">
+										<input class="btn btn-primary" type="button" value="Descargar cita" href="#" onclick="mostrarFile();">
+										<input class="btn btn-primary" type="button" value="Nueva Cita" onclick="nuevaCita();">
+										<br><br>`);
+					}
+				$('.result').css('display','block');
+				$('.result').css('zoom','100%');
+				$('.result').append(mensaje);
+				$('.num_cita').append(dataRestCita.codigoCita);
+				$('.codigo').append($('#tdocumento').val());
+				$('.abre_cita').append($('#areaRequerida').find(':selected').data('abre'));
+				$('.container.pagina').css('display', 'none');
+			} else {
+				$('#contenedor_carga').css('visibility','hidden');
+				$('#contenedor_carga').css('opacity','0');
+				bootbox.alert({
+					message: dataRestCita.error
+				});
+			} 
+		}
+		$("#form-citas").submit(function(e) {
+			if ($("#areaRequerida").val() == "optnull") {
+				alert("Debe seleccionar la Unidad Orgánica requerida");
+				$("#areaRequerida").focus();
+				return false;
+			} else if($("#token").val() == ""){
+				alert("Debe ingresar su codigo de Atención");
+				$("#token").focus();
+				return false;
+			} else if ($("#motivo").val() == "") {
+				alert("Debe ingresar su motivo de cita");
+				$("#motivo").focus();
+				return false;
+			} else if ($("#ndocumento").val() == "") {
+				alert("Debe ingresar su número de documento");
+				$("#ndocumento").focus();
+				return false;
+			}  else if ($("#telefono").val() == "") {
+				alert("ingresar su número de teléfono");
+				$("#telefono").focus();
+				return false;
+			} else if ($("#nombres").val() == "") {
+				alert("Debe ingresar su nombre");
+				$("#nombres").focus();
+				return false;
+			} else if ($("#appaterno").val() == "") {
+				alert("Debe ingresar su apellido paterno");
+				$("#appaterno").focus();
+				return false;
+			} else if ($("#apmaterno").val() == "") {
+				alert("Debe ingresar su apellido materno");
+				$("#apmaterno").focus();
+				return false;
+			} else if ($("#correoe").val() == "") {
+				alert("ingresar su correo electrónico");
+				$("#correoe").focus();
+				return false;
+			}else if (!(/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test($("#correoe").val()))) {
+				alert("La dirección de correo es incorrecta");
+				$("#correoe").focus();
+				return false;
+			}else if (($("#correoe").val()) != ($("#confirmarcorreoe").val())) {
+				alert("La dirección de correo electrónico no coincide");
+				$("#confirmarcorreoe").focus();
+				return false;
+			} else if ($("#dcita").val() == "optnull") {
+				alert("Debe seleccionar una fecha");
+				return false;
+			} else if ($('input[name="optradio"]:checked').val() == null) {
+				alert("No existen horas disponibles.\nSeleccione otra fecha e inténtalo nuevamente");
+				$("#dcita").focus();
+				return false;
+			} else{
+				
+				if(getParameterByName('a')==1){
+					mensaje =
+					'<div class="centerTable">'+
+						'<table class="table tabla-personalizada">'+
+							'<tr>'+
+								'<th width="50%">Documento:</th>'+
+								'<td >'+$('#tdocumento').val()+' - '+$("#ndocumento").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>Nombres :</th>'+
+								'<td>'+$("#nombres").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>A. Paterno:</th>'+
+								'<td>'+$("#appaterno").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>A. Materno:</th>'+
+								'<td>'+$("#apmaterno").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>Unid.Orgánica:</th>'+
+								'<td>'+$("#areaRequeridaTxt").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>Ubicación :</th>'+
+								'<td>'+$("#ubicacion").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>Día :</th>'+
+								'<td>'+$("#dcitaTxt").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>Hora :</th>'+
+								'<td>'+$('input[name="optradio"]:checked').val()+'</td>'+
+							'</tr>'+
+
+						'</table>'+
+					'</div>';	
+				}else{
+					mensaje =
+					'<div class="centerTable">'+
+						'<table class="table tabla-personalizada">'+
+							'<tr>'+
+								'<th width="50%">Documento:</th>'+
+								'<td width="50%">'+$('#tdocumento').val()+' - '+$("#ndocumento").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>Nombres :</th>'+
+								'<td>'+$("#nombres").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>A. Paterno:</th>'+
+								'<td>'+$("#appaterno").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>A. Materno:</th>'+
+								'<td>'+$("#apmaterno").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>Unid.Orgánica:</th>'+
+								'<td>'+$("#areaRequeridaTxt").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>Día :</th>'+
+								'<td>'+$("#dcitaTxt").val()+'</td>'+
+							'</tr>'+
+							'<tr>'+
+								'<th>Hora :</th>'+
+								'<td>'+$('input[name="optradio"]:checked').val()+'</td>'+
+							'</tr>'+
+
+						'</table>'+
+					'</div>';
+				}
+				
+				bootbox.dialog({
+					title: '<h4>Estás seguro de reservar la siguiente atención Presencial:</h4>',
+					message: mensaje,
+					size: 'small',
+					buttons: {
+						cancel: {
+							label: "Cancelar",
+							className: 'btn-danger',
+							callback: function(){
+							}
+						},
+						ok: {
+							label: "Confirmar",
+							className: 'btn-info',
+							callback: function(){
+								guardar();
+							}
+						}
+					}
+				});
+				return false;
+			}
+		});
+		function validarTelefono(){
+			if(($("#telefono").val()) != ''){
+				document.getElementById('telefono').style.borderColor = 'green';
+			}else{
+				document.getElementById('telefono').style.borderColor = 'red';
+			}
+		}
+		function validarCorreos(){
+			if((/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test($("#correoe").val()))){
+				document.getElementById('correoe').style.borderColor = 'green';
+			}else{
+				document.getElementById('correoe').style.borderColor = 'red';
+			}
+		}
+		function confirmarCorreos(){
+			if(($("#confirmarcorreoe").val()!='')&&($("#correoe").val()) == ($("#confirmarcorreoe").val())){
+				document.getElementById('confirmarcorreoe').style.borderColor = 'green';
+			}else{
+				document.getElementById('confirmarcorreoe').style.borderColor = 'red';
+			}
+		}
+		function soloLetras(e) {
+			key = e.keyCode || e.which;
+			tecla = String.fromCharCode(key).toString();
+			letras = " áéíóúabcdefghijklmnñopqrstuvwxyzÁÉÍÓÚABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+			especiales = [8, 37, 39, 46, 6]; 
+			tecla_especial = false
+			for(var i in especiales) {
+				if(key == especiales[i]) {
+					tecla_especial = true;
+					break;
+				}
+			}
+			if(letras.indexOf(tecla) == -1 && !tecla_especial){
+				return false;
+			}
+        }
+        function SoloNumeros(evt){
+            if(window.event){
+                keynum = evt.keyCode;
+            } else{
+                keynum = evt.which;
+            }
+            if((keynum > 47 && keynum < 58) || keynum == 8 || keynum == 13 || keynum == 6 ){
+                return true;
+            } else{
+            return false;
+            }
+        }
+
+		function cargaTxtCampo(campo, attr = null) {
+
+			var opcionSeleccionada = $("#" + campo + " option:selected");
+			var valorCampo = "";
+			if (attr != null) {
+				valorCampo = opcionSeleccionada.attr("data-opt");
+			} else {
+				valorCampo = opcionSeleccionada.text();
+			}
+
+			$("#" + campo + "Txt").val(valorCampo);
+		}
+		function muestra_oculta(id){
+			if (document.getElementById){ //se obtiene el id
+				var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
+				el.style.display = (el.style.display == 'none') ? 'block' : 'none'; //damos un atributo display:none que oculta el div
+			}
+    	}
+		function mostrarFile(){
+			window.open($('#urlFile').val(), '_blank').focus();
+		}
+		$('#validar').click(async function(){
+			var token = $("#token").val()
+			const url = URL.rutacitas+"tokenBandeja/0/0/0";
+			
+			if(token.length==0) return alert("Ingrese su Token");
+			
+			$('#contenedor_carga').css('visibility','visible');
+			$('#contenedor_carga').css('opacity','1');
+			
+			await axios.get(url, {params: {token}}).then(response=>{
+				
+				let tokenObj = response.data.data[0];
+                if(response.data.data.length==0) alert("SU CÓDIGO DE ATENCIÓN NO ES VÁLIDO");
+                else if(tokenObj.tipoAtencion!=getParameterByName('a') ){
+                    switch (getParameterByName('a')) {
+                        case "1":
+                            alert("SU CÓDIGO DE ATENCIÓN ES PARA UNA CITA VIRTUAL")
+                            break;
+                        case "2":
+                            alert("SU CÓDIGO DE ATENCIÓN ES PARA UNA CITA PRESENCIAL")
+                            break;
+                        default:alert("SU CÓDIGO DE ATENCIÓN NO ES VÁLIDO")
+                            break;
+                    }
+                }else if(tokenObj.status==0){
+					
+                    $( "#areaRequerida" ).prop( "disabled", true );
+                    $( "#token" ).prop( "disabled", true );
+                    $( "#tdocumento" ).prop( "disabled", true );
+                    $( "#ndocumento" ).prop( "disabled", true );
+                    $( "#btnRegistrar" ).prop( "disabled", false );
+                    $( "#telefono" ).prop( "disabled", false );
+                    $( "#direccion" ).prop( "disabled", false );
+                    $( "#confirmarcorreoe" ).prop( "disabled", false );
+                    $( "#correoe" ).prop( "disabled", false );
+                    // $( "#motivo" ).prop( "disabled", false );
+                    
+                    $('#nombres').val(tokenObj.nombres);
+                    $('#appaterno').val(tokenObj.apePaterno);
+                    $('#apmaterno').val(tokenObj.apeMaterno);
+                    $('#tdocumento').val(tokenObj.tipoDocumento);
+                    $('#ndocumento').val(tokenObj.dni);
+                    $('#motivo').val(tokenObj.motivo);
+                    $('#tiempoCita').val(tokenObj.tiempoCita);
+					$('#idSubMotivo').val(tokenObj.idSubMotivo);
+					$('#idMotivo').val(tokenObj.idMotivo);
+                    $('#validar').prop( "disabled", true );
+                    $('#frecuencia').val(tokenObj.frecuencia);
+                    $('#idToken').val(tokenObj.pkTablaToken);
+					if(($("#areaRequerida").val()) != (tokenObj.area)){
+						$("#areaRequerida").val(tokenObj.area);	
+						
+						cargaTxtCampo('areaRequerida');
+						$("#hcita").focus();
+					}
+                    cargaFechas(document.getElementById("areaRequerida"));
+					muestra_oculta('contenido');
+					muestra_oculta('contenido1');
+					muestra_oculta('contenido2');
+					muestra_oculta('contenido3');
+					muestra_oculta('contenido4');
+					muestra_oculta('contenido5');
+					muestra_oculta('contenido6');
+					muestra_oculta('contenido7');
+					muestra_oculta('contenido8');
+                }else if(tokenObj.status==2){
+                    alert("SU CÓDIGO DE ATENCIÓN YA FUE USADO");
+                }else alert("Error...");
+                
+			}).catch(e=>{
+				console.log("error "+e);
+			});
+			
+			$('#contenedor_carga').css('visibility','hidden');
+			$('#contenedor_carga').css('opacity','0');
+		});
+		async function cargaFechas(campo) {
+			$("#dcita").empty();
+			$("#dcita").append("<option value='optnull'>SELECCIONE...</option>");
+			$("#hcita").empty();
+			$("#fechaDisponible_dp").val("");
+			console.log(campo)
+			console.log("campo campo")
+			let fecha = new Date;
+			let mes = fecha.getMonth(), ano = fecha.getFullYear();
+			const urlFeriados = URL.rutacitas+"obtenerferiados/"+ano;
+			let disable_dates = []
+			await axios.get(urlFeriados, {params:{mes}}).then(response=>{
+				response.data.lista.forEach(element => {
+					disable_dates.push(element.dgsmas.replace(/\//g," "));
+				});
+			}).catch(e=>{
+				console.log(e);
+			})
+			if($(campo).val()!="optnull"){
+				var dataUbicacion = campo.options[campo.selectedIndex].getAttribute("data-ubicacion");
+				$("#ubicacion").val(dataUbicacion);
+				
+				$( "#fechaDisponible_dp" ).prop( "disabled", false );
+				
+				var ds = ["DOMINGO", "LUNES", "MARTES", "MIERCOLES", "JUEVES", "VIERNES", "SABADO"];
+				
+                document.getElementById('divfecha').classList.remove('disables');
+				const urlCalendario = URL.rutacitas+"obtener-calendario"
+				let idArea= $("#areaRequerida").val();
+				let tipoAtencion= getParameterByName('a');
+				let idSubMotivo= ($("#idSubMotivo").val() ==0)? null: $("#idSubMotivo").val();
+				let idMotivo= ($("#idMotivo").val() ==0)? null: $("#idMotivo").val();
+				var array = [1,2,3,4,5,6,0]
+				await axios.get(urlCalendario, {params: {idArea, tipoAtencion, idMotivo}}
+				).then(response=>{
+					response.data.lista.forEach(element =>{
+						switch (element.dia) {
+							case 'LUNES':
+								var i = array.indexOf( 1 );
+								if ( i !== -1 )array.splice( i, 1 )
+								break;
+							case 'MARTES':
+								var i = array.indexOf( 2 );
+								if ( i !== -1 )array.splice( i, 1 )
+								break;
+							case 'MIERCOLES':
+								var i = array.indexOf( 3 );
+								if ( i !== -1 )array.splice( i, 1 )
+								break;
+							case 'JUEVES':
+								var i = array.indexOf( 4 );
+								if ( i !== -1 )array.splice( i, 1 )
+								break;
+							case 'VIERNES':
+								var i = array.indexOf( 5 );
+								if ( i !== -1 )array.splice( i, 1 )
+								break;
+							case 'SABADO':
+								var i = array.indexOf( 6 );
+								if ( i !== -1 )array.splice( i, 1 )
+								break;
+							case 'DOMINGO':
+								var i = array.indexOf( 0 );
+								if ( i !== -1 )array.splice( i, 1 )
+								break;
+						}
+					})
+					disable_dates.push("* * * "+array.toString());
+                }).catch(e=>{
+                    console.log(e);
+				});
+                $("#fechaDisponible_dp").Zebra_DatePicker({
+                    always_visible: $('#container'),
+                    direction: [true, 30],
+                    // disabled_dates: ["* * * "+resp.diasnodisponibles.toString() , '28 07 2020', '29 07 2020'],
+                    disabled_dates: disable_dates,
+                    readonly_element: false,
+                    onSelect: function(a, b, c){
+                        var nombreDia = ds[c.getDay()];
+                        $("#dcita").val(nombreDia);
+                        $("#dcitaTxt").val(a);
+                        cargaHoras(nombreDia);
+                    }
+                });
+			}else{
+				$( "#fechaDisponible_dp" ).prop( "disabled", true );
+			}
+		}
+
+		async function cargaHoras(diatxt) {
+			var el = document.getElementById("labelHorario"); //se define la variable "el" igual a nuestro div
+			el.style.display = 'block';
+			$("#hcita").empty();
+			const urlObtenerHoras = URL.rutacitas+"obtener-horas";
+			let dates2 = moment($('#dcitaTxt').val(), "DD-MM-YYYY");
+			let dateFinal = moment(dates2, "YYYY-MM-DD").toDate();
+			dateFinal = moment(dateFinal).format("YYYY-MM-DD");
+			let tiempoCita = ($('#tiempoCita').val()*1) + ($('#frecuencia').val()*1);
+            let obtHorarios = {
+                "idArea": $("#areaRequerida").val(),
+                "fecha": dateFinal,
+                "tipoAtencion":getParameterByName('a'),
+                "tiempoCita": tiempoCita,
+				"idSubMotivo": ($("#idSubMotivo").val() ==0)? null: $("#idSubMotivo").val(),
+				"idMotivo": ($("#idMotivo").val() ==0)? null: $("#idMotivo").val(),
+			}
+			let listaHorarios =[];
+			$('#contenedor_carga').css('visibility','visible');
+			$('#contenedor_carga').css('opacity','1');
+            await axios.post(urlObtenerHoras, obtHorarios).then(response=>{
+                listaHorarios = response.data.lista;
+            }).catch(e=>{console.log("Error"+e);}) 
+			let tarde = 0, manana = 0; 
+			if (listaHorarios.length>0) {
+				var horaActual = moment(new Date).format('HH:mm:ss');
+				let diaActual = moment(new Date).format("YYYY-MM-DD");
+				listaHorarios[0].atencion.forEach(element=>{
+					if((dateFinal==diaActual)&&(element.hora<=horaActual)) element.estado = 0;
+
+					if(element.hora <= "12:30:00"){
+						if(manana == 0) $("#hcita").append("<H5>TURNO MAÑANA : </H5>");manana++;
+                        if(element.estado == 1) 
+                        $("#hcita").append("<label class='font' style='margin: 5px 10px;'><input type='radio' value='"+element.hora+"' id='optradio' name='optradio' >&nbsp"+element.hora+"</label>");
+					}else {
+						if(tarde == 0)$("#hcita").append("<H5>TURNO TARDE : </H5>");tarde++;
+                        if(element.estado == 1)
+                        $("#hcita").append("<label class='font' style='margin: 5px 10px;'><input type='radio' value='"+element.hora+"' id='optradio' name='optradio' >&nbsp"+element.hora+"</label>");
+					}
+				})
+				$('#contenedor_carga').css('visibility','hidden');
+				$('#contenedor_carga').css('opacity','0');
+			}else {
+				$('#contenedor_carga').css('visibility','hidden');
+				$('#contenedor_carga').css('opacity','0');
+				alert("No hay horario disponible.");
+				$("#dcita").val("");
+				$("#dcitaTxt").val("");
+				$("#fechaDisponible_dp").val("");
+			}
+			
+		}
+
+		function cuentaCaracteres() {
+			var limite = 300;
+			var resto = limite - $("#motivo").val().length;
+			var texto = "";
+
+			if (resto > 1) {
+				texto = "Quedan " + resto + " caracteres";
+			} else if (resto == 0) {
+				texto = "No puede ingresar mas caracteres";
+			} else {
+				texto = "Queda " + resto + " caracter";
+			}
+
+			$("#nrocaracteres").html(texto);
+		}
+
+		$(document).ready(function() {
+			cuentaCaracteres();
+		});
+	</script>
+	<script>
+		if (!getParameterByName('chat')) {
+			var algo = document.getElementById("imgocultar");
+			algo.innerHTML = `<a  class="nav-link youtube  link2"  href="javascript:;" onclick=""></a>`;
+			var texto = document.getElementById("textocultar");
+			texto.innerHTML = `<label > </label>`;
+		}
+	</script>
+	<script>
+		function chat(campo){		
+			var sele = document.getElementById("areaRequerida").value;
+			var algo = document.getElementById("imgocultar");
+			if(sele != "optnull"){
+				var cod =campo.options[campo.selectedIndex].getAttribute("data-idChat");
+				if(cod != 0 && cod != 42){
+					algo.innerHTML = `<a  class="nav-link youtube   link3"  href="javascript:;" onclick="window.open('https://mirachat.miraflores.gob.pe/mibew/index.php/chat?locale=es&amp;group=NUM', '', 'width=500,height=700,left=200,top=30');"><img src=" https://www.miraflores.gob.pe/wp-content/themes/munimiraflores/web-imagenes/boton_chat.png " width="200" height="80"></a>` ;
+					algo.innerHTML = algo.innerHTML.replace("NUM", cod);
+					texto.innerHTML = `<br><label style="color: #4054bc">Obtén tu código de atención aquí</label><label style="color: #4054bc"> Horario de lunes a viernes de 8:00 a.m a 05:30 p.m </label>`;
+				}else {
+					algo.innerHTML = `<a  class="nav-link youtube   link4"  href="javascript:;" onclick=""></a>` ;
+					texto.innerHTML = `<label > </label>`;
+				}
+					
+			}else{
+				algo.innerHTML = `<a  class="nav-link youtube link5"  href="javascript:;" onclick=""></a>` ;
+				texto.innerHTML = `<label > </label>`;
+			}
+		}
+	</script>
+
+</body>
+
+
+<!-- Mirrored from www.miraflores.gob.pe/citas-plataforma/?a=1 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Nov 2022 00:19:03 GMT -->
+</html>

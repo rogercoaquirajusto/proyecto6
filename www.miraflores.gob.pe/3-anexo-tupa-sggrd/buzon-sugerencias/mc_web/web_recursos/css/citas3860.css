@@ -1,0 +1,86 @@
+.body-modulo{
+	border:1px solid rgb(204, 204, 204);
+	background: rgb(245, 245, 245);
+	border-radius: 3px;
+	padding:10px 20px;
+}
+
+.head-rojo{
+	color: #990000;
+	margin: 10px 10px;
+	font-size: 1em;
+}
+.head-azul{
+	font-family: Helvetica,Arial,sans-serif;
+    font-size: 2.0em;
+    letter-spacing: -0.05em;
+    line-height: 1.3em;
+    font-weight: bold;
+    color: #0E76B8;
+    margin: 20px 20px 0 20px;
+}
+.left-cero{
+	padding-left: 0px !important;
+}
+.padd-dos{
+	padding: 0 2px !important;
+}
+.padd-t-quince{
+	padding-top: 15px; 
+}
+
+label{
+	font-weight: normal !important;
+	color: #0E76B8;
+}
+h4{
+	font-weight: 600;
+	color: #0E76B8;
+}
+.hrcita{
+	border-top:1px solid rgb(204, 204, 204);
+	margin-top: 0px;
+}
+.sp-requerido{
+	color: red;
+}
+.texto-pie{
+	margin: 0 auto;
+    padding: 20px;
+    line-height: 15px;
+    color: #CCC;
+}
+
+
+@media (max-width:400px){
+	.head-azul{
+		font-size: 1.6em;
+	}
+	.head-rojo{
+		margin: 5px 10px;
+		font-size: 10px;
+	}
+	.form-group {
+		margin-bottom: 10px;
+	}
+	.container.pagina{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
+@media (max-width:320px){
+	.head-azul{
+		font-size: 1.3em;
+	}
+	.head-rojo{
+		margin: 2px 10px;
+		font-size: 9px;
+	}
+	.form-group {
+		margin-bottom: 10px;
+	}
+	.container.pagina{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
