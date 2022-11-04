@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Mirrored from www.miraflores.gob.pe/modulos/consultatramite/view-busqueda.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Nov 2022 00:19:04 GMT -->
+<head>
+	<meta charset="UTF-8">
+	<title>Consulta de trámite documentario</title>
+	<link rel="stylesheet" href="https://www.miraflores.gob.pe/plugins/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="https://www.miraflores.gob.pe/modulos/consultatramite/css/consultatramite.css">
+</head>
+<body>
+	<header>
+		<div class="titulo">
+			<h5>CONSULTAS DE TRÁMITE DOCUMENTARIO</h5>
+		</div>
+	</header>
+	<section>
+		<div class="container-fluid">
+			
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 labelText">Tipo:</div>
+				<div class="col-xs-8 col-sm-8">
+					<select name="selTipoDocumento" id="selTipoDocumento">
+						<option value="7667" selected>CARTA EXTERNA</option>
+						<option value="7586">EXPEDIENTE</option>		
+						<option value="6993">SOLICITUD</option>
+						<!--option value="SAIP">ACCESO A LA INFORMACION PÚBLICA</option-->
+					</select>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 labelText">Documento:</div>
+				<div class="col-xs-8 col-sm-8">
+					<input type="text" name="nroDocumento" id="nroDocumento" size="15" placeholder="Número">
+					<input type="text" name="anioDocumento" id="anioDocumento" size="8" placeholder="Año">
+					<button type="button" class="btn btn-primary" id="btnBuscar">Buscar</button>
+				</div>
+			</div>
+			<hr/>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12">
+					<div id="capaMensajes"></div>
+					<div id="capaResultados"></div>
+					<div id="capaLoading"><img src="https://www.miraflores.gob.pe/modulos/consultatramite/img/loading.gif"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://www.miraflores.gob.pe/plugins/jquery/js/jquery-1.11.3.min.js"></script>
+	<script src="https://www.miraflores.gob.pe/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://www.miraflores.gob.pe/modulos/consultatramite/js/main-modconsultatramite.js"></script>
+	<script src="https://www.miraflores.gob.pe/modulos/consultatramite/js/moment.min.js"></script>
+	<script>
+		modConsultaTramite.init();
+	</script>
+</body>
+
+<!-- Mirrored from www.miraflores.gob.pe/modulos/consultatramite/view-busqueda.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Nov 2022 00:19:04 GMT -->
+</html>
