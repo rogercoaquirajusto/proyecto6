@@ -1,0 +1,174 @@
+@media screen and (max-width: 425px){
+	.titulo-secciones{
+		font-size: 1.8em;
+		letter-spacing: -0.1px;
+	}
+	.capa-ricardo-palma{
+		display: none !important;
+	}
+	.btnchatflotante{
+		position: fixed; 
+		bottom: 0px; 
+		right: 0px;
+	}
+	
+	
+}
+@media screen and (min-width: 426px){
+	#home-menu-principal li:last-child{
+		display:none;
+		position:absolute;
+	}
+
+	.wpcp-carousel-section .wpcp-single-item img{
+		height:190px !important;
+	}
+	
+	.menu-pagina li a {
+		font-size: 0.7em;
+	}
+	.capa-ricardo-palma{
+		display: none !important;
+	}
+}
+
+
+@media screen and (max-width: 425px){
+	header.cab-principal{
+		padding-bottom: 10px;
+	}
+	.pan-busqueda-transp-idioma{
+		padding-top: 7px;
+	}
+	.pan-busqueda-transp-idioma div{
+		padding-left: 5px;
+		padding-right: 5px;
+		/*font-size: 1.4em;*/
+	}
+	.pan-busqueda-transp-idioma div:last-child{
+		padding-top: 0px;
+	}
+
+	.slider-inicio .row, .capa-cifras .row, .capa-redesautoria .row{
+		margin-right: 0px;
+	}
+	.capa-ricardo-palma figure{
+		margin-top: 7px;
+	}
+	.titulo-secciones{
+		font-size: 1.9em;
+		letter-spacing: normal;
+	}
+	.titulo-secciones.movil{
+		line-height: 25px;
+	}
+	.titulo-secciones.movil .vermas{
+		font-size: 0.8em;
+	}
+	.capa-ricardo-palma{
+		display: none !important;
+	}
+	
+	.btnchatflotante{
+		position: fixed; 
+		bottom: 0px; 
+		right: 0px;
+	}
+	
+	
+}
+
+@media screen and (max-width: 767px){
+	.container-fluid{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.lista-header .padding-r-20{
+		padding-right: 0px !important;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.lista-header .padding-r-20{
+		padding-right: 10px !important;
+	}
+} 
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+	.wpcp-carousel-section .wpcp-single-item img{
+		height:270px !important;
+	}
+	.menu-pagina li a {
+		font-size: 1em !important;
+	}
+	.capa-ricardo-palma{
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+	.wpcp-carousel-section .wpcp-single-item img{
+		height:300px !important;
+	}
+	.menu-pagina li a {
+		font-size: 1.2em;
+	}
+	.wpcp-carousel-section .wpcp-single-item img{
+		height:340px !important;
+	}
+	.capa-ricardo-palma{
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1500px){
+	#logo-ricardo-palma{
+		display: none !important;
+	}
+	/*#logo_miraflores{
+		content: url('/wp-content/themes/munimiraflores/web-imagenes/logo_miraflores_v2.png');
+	}*/
+	.capa-ricardo-palma figure{
+		margin-top: 10px;
+	}
+
+	.wpcp-carousel-section .wpcp-single-item img{
+		height:330px;
+	}
+	.menu-pagina li a {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1600px){
+	.capa-ricardo-palma{
+		display: none !important;
+	}
+
+	.wpcp-carousel-section .wpcp-single-item img{
+		height:350px !important;
+	}
+	.menu-pagina li a {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (min-width: 1601px){
+	.capa-ricardo-palma{
+		display: none !important;
+	}
+
+	.wpcp-carousel-section .wpcp-single-item img{
+		height:590px !important;
+	}
+	.menu-pagina li a {
+		font-size: 1.2em;
+	}
+}

@@ -1,0 +1,297 @@
+/*
+Theme Name: Municipalidad de Miraflores
+Theme URI: 
+Author: Gerencia de Sistemas y Tecnologia de La Información - Municipalidad de Miraflores
+Author URI: http://www.miraflores.gob.pe/
+Description: Plantilla para la imagen de la Municipalidad de Miraflores - 2019
+Version: 1.0
+Tags: miraflores, municipalidad, institucion, gobierno
+Text Domain: mmiraflores
+*/
+.error-msg {
+    text-align: center;
+}
+.error-msg .display-4 {
+	color: #518FCC;
+	font-weight: 900;
+}
+.error-msg img {
+    height: 100px;
+}
+.bg-primary {
+    background: #518FCC !important;
+}
+.form-busqueda.responsive .card{
+    border: none;
+}
+.form-busqueda.responsive i {
+    color: #518FCC !important;
+}
+
+@media (max-width: 426px) {
+    .wpcp-slide-image {
+        height: 200px;
+    }
+    .wpcp-slide-image img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }   
+    .capa-slider .capa-bienvenida-carousel{
+        display: block !important;
+        bottom: 10px;
+        right: 20.5%;
+    }
+    .capa-slider .capa-bienvenida-carousel div:first-child {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    .capa-slider .capa-bienvenida-carousel div:nth-child(2) {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .capa-slider .capa-bienvenida-carousel div:last-child {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    .slick-arrow {
+        display: none !important;
+    }
+    .capa-acceso-directo {
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+    .capa-acceso-directo a {
+        padding: 0;
+        text-align: center;
+    }
+    .capa-acceso-directo a img {
+        margin: auto;
+        float: none;
+    }
+    .capa-acceso-directo a span {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+		font-size: 1em;
+		line-height: 16px;
+    }
+    .mas-accesos-d {
+        text-align: center;
+    }
+    .mas-accesos-d a {
+        margin-left: 0;
+    }
+    #carousel-campanias {
+        margin-bottom: 25px;
+    }
+    #carousel-campanias .carousel-indicators {
+        top: 106%;
+    }
+    #carousel-campanias .carousel-inner .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .texto-campania {
+        position: unset;
+        width: 100%;
+        font-size: 1rem;
+        padding-top: 15px;
+    }
+    .texto-campania div div:first-child {
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .title-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-sec .titulo-secciones {
+        font-size: 1.4rem;
+        margin-left: 1rem;
+    }
+    .title-sec .titulo-secciones a {
+        font-size: 1rem;
+        display: block;
+    }
+    .caja-centralt {
+        border-radius: 30px;
+        margin-bottom: .5rem;
+        padding-top: 13px;
+        font-size: 1rem;
+    }
+    .item-noticia {
+        margin-bottom: 15px;
+        border-color: rgba(189,189,189,.5);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .item-noticia figure {
+        height: 155px;
+    }
+    .item-noticia figure img {
+        height: 100% !important;
+        object-fit: cover;
+        object-position: center;
+    }
+    .lista-noticias .item-noticia {
+    	padding-bottom: 0px;
+    }
+    .capa-cifras .row {
+        padding-top: 20px;
+        padding-bottom: 14px;
+        margin-left: 0;
+    }
+    .capa-cifras .texto.cifras {
+        font-size: 2rem !important;
+        font-weight: 900;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    .capa-cifras .texto {
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+        line-height: normal;
+    }
+    #menu-menu-pie {
+        text-align: center !important;
+        font-size: .6rem;
+    }
+    #menu-menu-pie li {
+        padding-right: 0px;
+    }
+    .capa-redesautoria {
+        font-size: .6rem;
+    }
+    .capa-redesautoria .row {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 0;
+    }
+    .modula.modula-gallery .items {
+    	height: auto !important;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .modula .items .item {
+    	position: unset !important;
+        flex: 0 0 50%;
+        height: 150px !important;
+    }
+    .modula .items .item img.pic {
+    	top: 0 !important;
+        left: 0 !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+        object-position: center;
+    }
+    .modula .items .item .figc {
+    	width: 100% !important;
+        height: 100% !important;
+    }
+    .sidebar-lateral {
+    	padding-left: 0px;
+    }
+    .capa-menu {
+        margin: 0;
+    }
+    #home-menu-principal .menu-item {
+        display: block;
+        width: 100% !important;
+    }
+    .menu-pagina li a {
+        border-bottom: 0px;
+    }
+    .menu-pagina {
+        opacity: 0;
+    }
+    #home-menu-principal {
+        height: 0px;
+        -webkit-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+    }
+    #menu_main.open .menu-pagina {
+        opacity: 1;
+    }
+    #menu_main.open #home-menu-principal {
+        height: auto;
+    }
+    #btn_menu_main {
+    	cursor: pointer;
+    }
+    #menu-menu-alcaldia {
+    	flex-wrap: wrap;
+	}
+	#menu-menu-alcaldia .menu-item {
+		flex: 0 0 100%;
+	}
+	#menu-menu-alcaldia .menu-item a {
+		width: 100%;
+	}
+    .titulo-pagina {
+		font-size: 1.4rem;
+	}
+	.titulo-pagina span {
+		padding: 15px 20px 10px 20px !important;
+	}
+    .item-funcionarios .cajaimagen {
+		padding-right: 0px;
+	}
+	.item-funcionarios .cajaimagen img {
+		width: 100%;
+	}
+	.item-funcionarios .cajatexto {
+		padding: 15px !important;
+	}
+	.item-funcionarios .cajatexto > div:first-child {
+		padding-top: 0px;
+	}
+    iframe {
+    	width: 100%;
+    }
+    .minisite > .container-fluid {
+    	padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .minisite .tituloylogo {
+    	padding-top: 20px !important;
+        padding-bottom: 20px;
+    }
+    .minisite .tituloylogo h5 {
+    	margin-bottom: 0px;
+    }
+    .telefonos-utilidad .accordion-group .accordion-body .accordion-inner div {
+    	display: flex;
+        justify-content: space-between;
+    }
+    .telefonos-utilidad .accordion-group .accordion-body .accordion-inner div span {
+    	width: auto;
+    }
+    .contenido-site-pagina {
+    	overflow-x: hidden;
+    }
+    .page-numbers {
+    	margin-top: 1rem;
+        width: 100%;
+        padding: 0;
+        font-size: .7rem;
+    }
+    #menu-menu-transparencia {
+    	flex-wrap: wrap;
+    }
+    #menu-menu-transparencia .menu-item {
+    	flex: 0 0 100%;
+        margin-bottom: .2rem;
+    }
+    #menu-menu-transparencia .menu-item a {
+    	width: 100%;
+    }
+}

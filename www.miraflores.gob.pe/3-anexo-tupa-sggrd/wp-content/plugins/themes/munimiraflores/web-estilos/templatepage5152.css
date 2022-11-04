@@ -1,0 +1,18 @@
+#menu-plantilla-pagina{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+    margin-top: 50px;
+}
+#menu-plantilla-pagina li{
+    padding-bottom: 10px; 
+}
+#menu-plantilla-pagina li:first-child{
+    border-top: 7px solid #E60F7E;
+    padding-top: 10px;
+}
+#menu-plantilla-pagina li a{
+    text-decoration: underline;
+    color: #706F6F;
+}

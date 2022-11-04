@@ -1,0 +1,84 @@
+.minisite{
+    background:#EFF0EF;
+}
+.minisite .capaconlinea{
+    background:#FFF;
+    padding:35px 0;
+}
+.minisite .capaconlinea img{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.minisite .tituloylogo{
+    padding-top: 30px;
+}
+.minisite .tituloylogo h5{
+    color: #39509E;
+    font-family: 'Gill Sans Bold Italic';
+    padding-top: 6px;
+}
+
+.menu-embebido-verde, .menu-embebido-gris{
+	list-style-type: none;
+	display: flex;
+	padding: 0px;
+	padding-bottom: 25px;
+	margin: 0px;
+}
+.menu-embebido-verde li, .menu-embebido-gris li{
+	display: inline;
+	flex: 1;
+}
+.menu-embebido-verde li a, .menu-embebido-gris li a{
+	padding: 8px 5px;
+    display: block;
+	background: #2FA437;
+	text-align: center;
+	color: #FFF;
+}
+.menu-embebido-gris li a{
+	font-size: 1.15em;
+	background: #EFEFEF;
+	color: #706F6F;
+}
+.menu-embebido-verde li:last-child a, .menu-embebido-gris li:last-child a{
+	width: 100%;
+}
+.menu-embebido-verde .current_page_item a, .menu-embebido-gris .current_page_item a{
+	background: #508FCC;
+}
+.menu-embebido-gris .current_page_item a{
+	color: #FFF;
+}
+
+.menu-embebido-verde.datosa li{
+	flex: none;
+}
+.menu-embebido-verde.datosa li {
+    margin-left: 10px;
+}
+.menu-embebido-verde.datosa li:first-child {
+    margin-left: 0px;
+}
+.menu-embebido-verde.datosa li a{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.cadatosa>.col-lg-3{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.cadatosa>.col-lg-3>.caja-datosa{
+	margin-right:5px;
+	margin-left:5px;
+}
+
+.caja-datosa a .nombre{
+	padding:18px 5px;
+}
+.caja-datosa {
+    border-radius: 10px;
+}
