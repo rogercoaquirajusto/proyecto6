@@ -1,0 +1,416 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 03 Nov 2022 19:12:13 at https://www.miraflores.gob.pe/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.miraflores.gob.pe/ -O1 "C:\My Web Sites\proyecto6" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:12:14	Warning: 	Note: due to https://www.miraflores.gob.pe remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+19:13:58	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2F (from https://www.miraflores.gob.pe/)
+19:13:58	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2F&format=xml (from https://www.miraflores.gob.pe/)
+19:13:58	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/tribe/events/v1/ (from https://www.miraflores.gob.pe/)
+19:13:58	Error: 	"Method Not Allowed" (405) at link https://www.miraflores.gob.pe/xmlrpc.php (from https://www.miraflores.gob.pe/)
+19:14:34	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/whatsapp-image-2022-04-06-at-3-18-32-pm-768x968/
+19:14:34	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/whatsapp-image-2022-04-06-at-3-18-32-pm-768x968/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-06-at-3.18.32-PM-768x968-1.jpeg)
+19:18:56	Error: 	Exit requested by shell or user
+19:18:59	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/Debug Objects: www.miraflores.gob.pe/ (from https://www.miraflores.gob.pe/)
+19:18:59	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/actualiza-datos/ (from https://www.miraflores.gob.pe/)
+19:18:59	Warning: 	File not parsed, looks like binary: https://www.miraflores.gob.pe/wp-content/plugins/module-campanias/font/4b5b90deb1ba9887160f88ad0abc4fc2.woff2
+19:18:59	Warning: 	File not parsed, looks like binary: https://www.miraflores.gob.pe/wp-content/plugins/module-campanias/font/e7eace3e52faed10186de77ca7d82ad9.woff2
+19:18:59	Warning: 	File not parsed, looks like binary: https://www.miraflores.gob.pe/wp-content/plugins/module-campanias/font/217ce3a8978f6faa145e988027489dc6.woff2
+19:18:59	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/wp-content/plugins/wp-carousel-pro/public/css/images/controls.png (from https://www.miraflores.gob.pe/wp-content/plugins/wp-carousel-pro/public/css/jquery.bxslider.min.css?ver=3.4.1)
+19:18:59	Warning: 	File not parsed, looks like binary: https://www.miraflores.gob.pe/wp-content/plugins/wp-carousel-pro/public/fonts/fontawesome-webfont.woff2?v=4.7.0
+19:18:59	Warning: 	File not parsed, looks like binary: https://www.miraflores.gob.pe/wp-content/themes/munimiraflores/web-estilos/webfonts/fa-brands-400.woff2
+19:19:00	Warning: 	File not parsed, looks like binary: https://www.miraflores.gob.pe/wp-content/themes/munimiraflores/web-estilos/webfonts/fa-regular-400.woff2
+19:19:00	Warning: 	File not parsed, looks like binary: https://www.miraflores.gob.pe/wp-content/themes/munimiraflores/web-estilos/webfonts/fa-solid-900.woff2
+19:19:00	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/wp-content/themes/munimiraflores/web-fonts/Harabarad41d.eot? (from https://www.miraflores.gob.pe/wp-content/themes/munimiraflores/web-estilos/mmfuentes.css?ver=1.0)
+19:19:00	Warning: 	File not parsed, looks like binary: https://www.miraflores.gob.pe/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.15.0
+19:19:00	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1315
+19:19:00	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1315 to https://www.miraflores.gob.pe/transparencia/
+19:19:00	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Ftransparencia%2F (from https://www.miraflores.gob.pe/transparencia/)
+19:19:00	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Ftransparencia%2F&format=xml (from https://www.miraflores.gob.pe/transparencia/)
+19:19:01	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/transparencia/Debug Objects: www.miraflores.gob.pe/transparencia/ (from https://www.miraflores.gob.pe/transparencia/)
+19:19:01	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.miraflores.gob.pe/plataforma-digital/)
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=71417
+19:19:01	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=71417 to https://www.miraflores.gob.pe/censo-del-artista-miraflorino/
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fcenso-del-artista-miraflorino%2F (from https://www.miraflores.gob.pe/censo-del-artista-miraflorino/)
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fcenso-del-artista-miraflorino%2F&format=xml (from https://www.miraflores.gob.pe/censo-del-artista-miraflorino/)
+19:19:01	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/censo-del-artista-miraflorino/Debug Objects: www.miraflores.gob.pe/censo-del-artista-miraflorino/ (from https://www.miraflores.gob.pe/censo-del-artista-miraflorino/)
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=6559
+19:19:01	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=6559 to https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fdesarrollo-urbano%2Fprograma-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores%2F (from https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/)
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fdesarrollo-urbano%2Fprograma-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores%2F&format=xml (from https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/)
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ord-387_mm/
+19:19:01	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ord-387_mm/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ORD-387_MM.pdf)
+19:19:01	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ORD-387_MM.pdf
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ord-401_mm/
+19:19:01	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ord-401_mm/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ORD-401_MM.pdf)
+19:19:01	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ORD-401_MM.pdf
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/anexo_01_microzonas/
+19:19:01	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/anexo_01_microzonas/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ANEXO_01_Microzonas.pdf)
+19:19:01	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ANEXO_01_Microzonas.pdf
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/anexo_02_ejes_de_aprovechamiento_de_potencial_de_du/
+19:19:01	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/anexo_02_ejes_de_aprovechamiento_de_potencial_de_du/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ANEXO_02_Ejes_de_Aprovechamiento_de_Potencial_de_DU.pdf)
+19:19:01	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ANEXO_02_Ejes_de_Aprovechamiento_de_Potencial_de_DU.pdf
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/modelo_de_certificado_de_derechos_edificatorios/
+19:19:01	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/modelo_de_certificado_de_derechos_edificatorios/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/03/Modelo_de_Certificado_de_Derechos_Edificatorios.pdf)
+19:19:01	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/Modelo_de_Certificado_de_Derechos_Edificatorios.pdf
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/solicitud_de_acogimiento_a_la_ordenanza_387mm/
+19:19:01	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/solicitud_de_acogimiento_a_la_ordenanza_387mm/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/03/SOLICITUD_DE_ACOGIMIENTO_A_LA_ORDENANZA_387MM.pdf)
+19:19:01	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/SOLICITUD_DE_ACOGIMIENTO_A_LA_ORDENANZA_387MM.pdf
+19:19:01	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/Debug Objects: www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/ (from https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/)
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=65738
+19:19:01	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=65738 to https://www.miraflores.gob.pe/clinica-municipal-miraflores/
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fclinica-municipal-miraflores%2F (from https://www.miraflores.gob.pe/clinica-municipal-miraflores/)
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fclinica-municipal-miraflores%2F&format=xml (from https://www.miraflores.gob.pe/clinica-municipal-miraflores/)
+19:19:01	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/clinica-municipal-miraflores/Debug Objects: www.miraflores.gob.pe/clinica-municipal-miraflores/ (from https://www.miraflores.gob.pe/clinica-municipal-miraflores/)
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=63767
+19:19:01	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=63767 to https://www.miraflores.gob.pe/ciudad-digital/
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fciudad-digital%2F (from https://www.miraflores.gob.pe/ciudad-digital/)
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fciudad-digital%2F&format=xml (from https://www.miraflores.gob.pe/ciudad-digital/)
+19:19:01	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/ciudad-digital/Debug Objects: www.miraflores.gob.pe/ciudad-digital/ (from https://www.miraflores.gob.pe/ciudad-digital/)
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=53678
+19:19:01	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=53678 to https://www.miraflores.gob.pe/parque-bicentenario/
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fparque-bicentenario%2F (from https://www.miraflores.gob.pe/parque-bicentenario/)
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fparque-bicentenario%2F&format=xml (from https://www.miraflores.gob.pe/parque-bicentenario/)
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/brochure-parque-bicentenario-interactivo-2/
+19:19:01	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/brochure-parque-bicentenario-interactivo-2/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/05/BROCHURE-PARQUE-BICENTENARIO-interactivo-1.pdf)
+19:19:01	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/05/BROCHURE-PARQUE-BICENTENARIO-interactivo-1.pdf
+19:19:01	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/parque-bicentenario/Debug Objects: www.miraflores.gob.pe/parque-bicentenario/ (from https://www.miraflores.gob.pe/parque-bicentenario/)
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=807
+19:19:01	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=807 to https://www.miraflores.gob.pe/la-municipalidad/
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fla-municipalidad%2F (from https://www.miraflores.gob.pe/la-municipalidad/)
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fla-municipalidad%2F&format=xml (from https://www.miraflores.gob.pe/la-municipalidad/)
+19:19:01	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/la-municipalidad/Debug Objects: www.miraflores.gob.pe/la-municipalidad/ (from https://www.miraflores.gob.pe/la-municipalidad/)
+19:19:01	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1299
+19:19:01	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1299 to https://www.miraflores.gob.pe/la-ciudad/
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fla-ciudad%2F (from https://www.miraflores.gob.pe/la-ciudad/)
+19:19:01	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fla-ciudad%2F&format=xml (from https://www.miraflores.gob.pe/la-ciudad/)
+19:19:02	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/la-ciudad/Debug Objects: www.miraflores.gob.pe/la-ciudad/ (from https://www.miraflores.gob.pe/la-ciudad/)
+19:19:02	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=812
+19:19:02	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=812 to https://www.miraflores.gob.pe/los-servicios/
+19:19:02	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2F (from https://www.miraflores.gob.pe/los-servicios/)
+19:19:02	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2F&format=xml (from https://www.miraflores.gob.pe/los-servicios/)
+19:19:02	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/los-servicios/Debug Objects: www.miraflores.gob.pe/los-servicios/ (from https://www.miraflores.gob.pe/los-servicios/)
+19:19:02	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=2738
+19:19:02	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=2738 to https://www.miraflores.gob.pe/serenazgo/
+19:19:02	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fserenazgo%2F (from https://www.miraflores.gob.pe/serenazgo/)
+19:19:02	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fserenazgo%2F&format=xml (from https://www.miraflores.gob.pe/serenazgo/)
+19:19:02	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/serenazgo/Debug Objects: www.miraflores.gob.pe/serenazgo/ (from https://www.miraflores.gob.pe/serenazgo/)
+19:19:02	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1152
+19:19:02	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1152 to https://www.miraflores.gob.pe/los-servicios/desarrollo-humano/accesibilidad/
+19:19:02	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fdesarrollo-humano%2Faccesibilidad%2F (from https://www.miraflores.gob.pe/los-servicios/desarrollo-humano/accesibilidad/)
+19:19:02	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fdesarrollo-humano%2Faccesibilidad%2F&format=xml (from https://www.miraflores.gob.pe/los-servicios/desarrollo-humano/accesibilidad/)
+19:19:02	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/los-servicios/desarrollo-humano/accesibilidad/Debug Objects: www.miraflores.gob.pe/los-servicios/desarrollo-humano/accesibilidad/ (from https://www.miraflores.gob.pe/los-servicios/desarrollo-humano/accesibilidad/)
+19:19:02	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=12
+19:19:02	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=12 to https://www.miraflores.gob.pe/la-municipalidad/alcaldia/
+19:19:02	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fla-municipalidad%2Falcaldia%2F (from https://www.miraflores.gob.pe/la-municipalidad/alcaldia/)
+19:19:02	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fla-municipalidad%2Falcaldia%2F&format=xml (from https://www.miraflores.gob.pe/la-municipalidad/alcaldia/)
+19:19:02	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/foto-collage_mesa-de-trabajo-1-2/
+19:19:02	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/foto-collage_mesa-de-trabajo-1-2/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/02/Foto-Collage_Mesa-de-trabajo-1-2.jpg)
+19:19:02	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/Foto-Collage_Mesa-de-trabajo-1-2.jpg
+19:19:02	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/4_mesa-de-trabajo-1/
+19:19:02	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/4_mesa-de-trabajo-1/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/02/4_Mesa-de-trabajo-1.jpg)
+19:19:02	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/4_Mesa-de-trabajo-1.jpg
+19:19:02	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/5_mesa-de-trabajo-1-1/
+19:19:02	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/5_mesa-de-trabajo-1-1/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/02/5_Mesa-de-trabajo-1-1.jpg)
+19:19:02	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/5_Mesa-de-trabajo-1-1.jpg
+19:19:02	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/fotos-3_mesa-de-trabajo-1-1/
+19:19:02	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/fotos-3_mesa-de-trabajo-1-1/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/02/fotos-3_Mesa-de-trabajo-1-1.jpg)
+19:19:02	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/fotos-3_Mesa-de-trabajo-1-1.jpg
+19:19:02	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/foto-2_mesa-de-trabajo-1-1/
+19:19:02	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/foto-2_mesa-de-trabajo-1-1/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/02/Foto-2_Mesa-de-trabajo-1-1.jpg)
+19:19:02	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/Foto-2_Mesa-de-trabajo-1-1.jpg
+19:19:02	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/foto1_mesa-de-trabajo-1/
+19:19:02	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/foto1_mesa-de-trabajo-1/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/02/foto1_Mesa-de-trabajo-1.jpg)
+19:19:02	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/foto1_Mesa-de-trabajo-1.jpg
+19:19:02	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/la-municipalidad/alcaldia/Debug Objects: www.miraflores.gob.pe/la-municipalidad/alcaldia/ (from https://www.miraflores.gob.pe/la-municipalidad/alcaldia/)
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=7537
+19:19:03	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=7537 to https://www.miraflores.gob.pe/contactos-linea/
+19:19:03	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fcontactos-linea%2F (from https://www.miraflores.gob.pe/contactos-linea/)
+19:19:03	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fcontactos-linea%2F&format=xml (from https://www.miraflores.gob.pe/contactos-linea/)
+19:19:03	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/contactos-linea/Debug Objects: www.miraflores.gob.pe/contactos-linea/ (from https://www.miraflores.gob.pe/contactos-linea/)
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1727
+19:19:03	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1727 to https://www.miraflores.gob.pe/consultas-pagos-linea/
+19:19:03	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fconsultas-pagos-linea%2F (from https://www.miraflores.gob.pe/consultas-pagos-linea/)
+19:19:03	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fconsultas-pagos-linea%2F&format=xml (from https://www.miraflores.gob.pe/consultas-pagos-linea/)
+19:19:03	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/20350-2/ (from https://www.miraflores.gob.pe/consultas-pagos-linea/)
+19:19:03	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/consultas-pagos-linea/Debug Objects: www.miraflores.gob.pe/consultas-pagos-linea/ (from https://www.miraflores.gob.pe/consultas-pagos-linea/)
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1805
+19:19:03	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1805 to https://www.miraflores.gob.pe/tributos-municipales/
+19:19:03	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Ftributos-municipales%2F (from https://www.miraflores.gob.pe/tributos-municipales/)
+19:19:03	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Ftributos-municipales%2F&format=xml (from https://www.miraflores.gob.pe/tributos-municipales/)
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/pagos-en-linea-desde-la-web-de-la-municipalidad-de-miraflores-24-09-2021-plataf-digital/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/pagos-en-linea-desde-la-web-de-la-municipalidad-de-miraflores-24-09-2021-plataf-digital/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/09/PAGOS-EN-LINEA-DESDE-LA-WEB-DE-LA-MUNICIPALIDAD-DE-MIRAFLORES-24.09.2021-plataf.digital.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/PAGOS-EN-LINEA-DESDE-LA-WEB-DE-LA-MUNICIPALIDAD-DE-MIRAFLORES-24.09.2021-plataf.digital.pdf
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/bcp-3/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/bcp-3/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BCP-1.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BCP-1.pdf
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ibk-2/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ibk-2/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/02/IBK.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/02/IBK.pdf
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/bbva-2/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/bbva-2/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BBVA.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BBVA.pdf
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/scotiabank-2/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/scotiabank-2/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/02/SCOTIABANK.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/02/SCOTIABANK.pdf
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/banbif-2/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/banbif-2/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BANBIF.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BANBIF.pdf
+19:19:03	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/tributos-municipales/Debug Objects: www.miraflores.gob.pe/tributos-municipales/ (from https://www.miraflores.gob.pe/tributos-municipales/)
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=19995
+19:19:03	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=19995 to https://www.miraflores.gob.pe/emergencias-domestica/
+19:19:03	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Femergencias-domestica%2F (from https://www.miraflores.gob.pe/emergencias-domestica/)
+19:19:03	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Femergencias-domestica%2F&format=xml (from https://www.miraflores.gob.pe/emergencias-domestica/)
+19:19:03	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/emergencias-domestica/Debug Objects: www.miraflores.gob.pe/emergencias-domestica/ (from https://www.miraflores.gob.pe/emergencias-domestica/)
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=44188
+19:19:03	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=44188 to https://www.miraflores.gob.pe/vpm/
+19:19:03	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fvpm%2F (from https://www.miraflores.gob.pe/vpm/)
+19:19:03	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fvpm%2F&format=xml (from https://www.miraflores.gob.pe/vpm/)
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/padron-de-sorteo-vpm-2021/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/padron-de-sorteo-vpm-2021/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/12/Padron-de-Sorteo-VPM-2021.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/12/Padron-de-Sorteo-VPM-2021.pdf
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/acta-del-sorteo-vpm-2021-firmada/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/acta-del-sorteo-vpm-2021-firmada/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/12/ACTA-DEL-SORTEO-VPM-2021-firmada.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/12/ACTA-DEL-SORTEO-VPM-2021-firmada.pdf
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/d-a-n-013-2021-mm-disposiciones-para-el-sorteo-anual-del-programa-de-incentivos-vpm-2021_06-12-2021/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/d-a-n-013-2021-mm-disposiciones-para-el-sorteo-anual-del-programa-de-incentivos-vpm-2021_06-12-2021/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/12/D.A-N%C2%B0-013-2021-MM-DISPOSICIONES-PARA-EL-SORTEO-ANUAL-DEL-PROGRAMA-DE-INCENTIVOS-VPM-2021_06.12.2021.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/12/D.A-N%C2%B0-013-2021-MM-DISPOSICIONES-PARA-EL-SORTEO-ANUAL-DEL-PROGRAMA-DE-INCENTIVOS-VPM-2021_06.12.2021.pdf
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/padron-del-sorteo-vpm-2020/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/padron-del-sorteo-vpm-2020/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2020/12/Padr%C3%B3n-del-Sorteo-VPM-2020.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/12/Padr%C3%B3n-del-Sorteo-VPM-2020.pdf
+19:19:03	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/acta-de-sorteo-vpm-2020/
+19:19:03	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/acta-de-sorteo-vpm-2020/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2020/12/ACTA-DE-SORTEO-VPM-2020.pdf)
+19:19:03	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/12/ACTA-DE-SORTEO-VPM-2020.pdf
+19:19:04	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/vpm/Debug Objects: www.miraflores.gob.pe/vpm/ (from https://www.miraflores.gob.pe/vpm/)
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1830
+19:19:04	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1830 to https://www.miraflores.gob.pe/la-ciudad/licencia-de-edificacion/
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fla-ciudad%2Flicencia-de-edificacion%2F (from https://www.miraflores.gob.pe/la-ciudad/licencia-de-edificacion/)
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fla-ciudad%2Flicencia-de-edificacion%2F&format=xml (from https://www.miraflores.gob.pe/la-ciudad/licencia-de-edificacion/)
+19:19:04	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/la-ciudad/licencia-de-edificacion/Debug Objects: www.miraflores.gob.pe/la-ciudad/licencia-de-edificacion/ (from https://www.miraflores.gob.pe/la-ciudad/licencia-de-edificacion/)
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=27
+19:19:04	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=27 to https://www.miraflores.gob.pe/tupa/
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Ftupa%2F (from https://www.miraflores.gob.pe/tupa/)
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Ftupa%2F&format=xml (from https://www.miraflores.gob.pe/tupa/)
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/anexo-integrado-del-tupa-de-sg-comercializacion-2021/
+19:19:04	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/anexo-integrado-del-tupa-de-sg-comercializacion-2021/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/01/ANEXO-INTEGRADO-DEL-TUPA-DE-SG-COMERCIALIZACI%C3%93N-2021.pdf)
+19:19:04	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/01/ANEXO-INTEGRADO-DEL-TUPA-DE-SG-COMERCIALIZACI%C3%93N-2021.pdf
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/anexo_tupa_sglep_16_06_2021-26-08-21/
+19:19:04	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/anexo_tupa_sglep_16_06_2021-26-08-21/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/08/ANEXO_TUPA_SGLEP_16_06_2021.-26.08.21.pdf)
+19:19:04	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/08/ANEXO_TUPA_SGLEP_16_06_2021.-26.08.21.pdf
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/3-anexo-tupa-sggrd/
+19:19:04	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/3-anexo-tupa-sggrd/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/08/3.-Anexo-TUPA-SGGRD.pdf)
+19:19:04	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/08/3.-Anexo-TUPA-SGGRD.pdf
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/anexo-consolidado-tupa-desarrollo-ambiental/
+19:19:04	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/anexo-consolidado-tupa-desarrollo-ambiental/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2020/10/ANEXO-CONSOLIDADO-TUPA-DESARROLLO-AMBIENTAL.pdf)
+19:19:04	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/10/ANEXO-CONSOLIDADO-TUPA-DESARROLLO-AMBIENTAL.pdf
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/anexo-consolidado-tupa-secretaria-general-vigente/
+19:19:04	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/anexo-consolidado-tupa-secretaria-general-vigente/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2020/10/ANEXO-CONSOLIDADO-TUPA-SECRETARIA-GENERAL-VIGENTE.pdf)
+19:19:04	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/10/ANEXO-CONSOLIDADO-TUPA-SECRETARIA-GENERAL-VIGENTE.pdf
+19:19:04	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/tupa/Debug Objects: www.miraflores.gob.pe/tupa/ (from https://www.miraflores.gob.pe/tupa/)
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=4150
+19:19:04	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=4150 to https://www.miraflores.gob.pe/defensa-civil/edificio-seguro/
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fdefensa-civil%2Fedificio-seguro%2F (from https://www.miraflores.gob.pe/defensa-civil/edificio-seguro/)
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fdefensa-civil%2Fedificio-seguro%2F&format=xml (from https://www.miraflores.gob.pe/defensa-civil/edificio-seguro/)
+19:19:04	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/defensa-civil/edificio-seguro/Debug Objects: www.miraflores.gob.pe/defensa-civil/edificio-seguro/ (from https://www.miraflores.gob.pe/defensa-civil/edificio-seguro/)
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=34819
+19:19:04	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=34819 to https://www.miraflores.gob.pe/atencion-ciudadano/
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fatencion-ciudadano%2F (from https://www.miraflores.gob.pe/atencion-ciudadano/)
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fatencion-ciudadano%2F&format=xml (from https://www.miraflores.gob.pe/atencion-ciudadano/)
+19:19:04	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/promociones-y-descuentos-vpm/ (from https://www.miraflores.gob.pe/atencion-ciudadano/)
+19:19:04	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/atencion-ciudadano/Debug Objects: www.miraflores.gob.pe/atencion-ciudadano/ (from https://www.miraflores.gob.pe/atencion-ciudadano/)
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1879
+19:19:04	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1879 to https://www.miraflores.gob.pe/los-servicios/comercializacion/licencia-de-funcionamiento/
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fcomercializacion%2Flicencia-de-funcionamiento%2F (from https://www.miraflores.gob.pe/los-servicios/comercializacion/licencia-de-funcionamiento/)
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fcomercializacion%2Flicencia-de-funcionamiento%2F&format=xml (from https://www.miraflores.gob.pe/los-servicios/comercializacion/licencia-de-funcionamiento/)
+19:19:04	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/los-servicios/comercializacion/licencia-de-funcionamiento/Debug Objects: www.miraflores.gob.pe/los-servicios/comercializacion/licencia-de-funcionamiento/ (from https://www.miraflores.gob.pe/los-servicios/comercializacion/licencia-de-funcionamiento/)
+19:19:04	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=2636
+19:19:04	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=2636 to https://www.miraflores.gob.pe/los-servicios/participacion-vecinal/
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fparticipacion-vecinal%2F (from https://www.miraflores.gob.pe/los-servicios/participacion-vecinal/)
+19:19:04	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fparticipacion-vecinal%2F&format=xml (from https://www.miraflores.gob.pe/los-servicios/participacion-vecinal/)
+19:19:04	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/los-servicios/participacion-vecinal/presupuesto-participativo-2020/ (from https://www.miraflores.gob.pe/los-servicios/participacion-vecinal/)
+19:19:04	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/los-servicios/participacion-vecinal/participacion.vecinal@miraflores.gob.pe (from https://www.miraflores.gob.pe/los-servicios/participacion-vecinal/)
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/los-servicios/participacion-vecinal/Debug Objects: www.miraflores.gob.pe/los-servicios/participacion-vecinal/ (from https://www.miraflores.gob.pe/los-servicios/participacion-vecinal/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1889
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1889 to https://www.miraflores.gob.pe/los-servicios/registros-civiles/
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fregistros-civiles%2F (from https://www.miraflores.gob.pe/los-servicios/registros-civiles/)
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fregistros-civiles%2F&format=xml (from https://www.miraflores.gob.pe/los-servicios/registros-civiles/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/formatos-matrimonios-pdf-correlativos/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/formatos-matrimonios-pdf-correlativos/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2020/08/FORMATOS-MATRIMONIOS-PDF-CORRELATIVOS.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/08/FORMATOS-MATRIMONIOS-PDF-CORRELATIVOS.pdf
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/los-servicios/registros-civiles/Debug Objects: www.miraflores.gob.pe/los-servicios/registros-civiles/ (from https://www.miraflores.gob.pe/los-servicios/registros-civiles/)
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/wp-content/uploads/2019/04/icono-datos-abiertos_min.png (from https://www.miraflores.gob.pe/datos-abiertos/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1965
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1965 to https://www.miraflores.gob.pe/datos-abiertos/
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fdatos-abiertos%2F (from https://www.miraflores.gob.pe/datos-abiertos/)
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fdatos-abiertos%2F&format=xml (from https://www.miraflores.gob.pe/datos-abiertos/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/datos-abiertos/datos-abiertos-aplicativos/
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/datos-abiertos/datos-abiertos-aplicativos/ to https://www.miraflores.gob.pe/datos-abiertos-aplicativos/
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/datos-abiertos-catalogo/ (from https://www.miraflores.gob.pe/datos-abiertos/)
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/datos-abiertos/Debug Objects: www.miraflores.gob.pe/datos-abiertos/ (from https://www.miraflores.gob.pe/datos-abiertos/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1628
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1628 to https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Ftupa%2Finformacion-adicional%2Ftarifario-municipal%2F (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Ftupa%2Finformacion-adicional%2Ftarifario-municipal%2F&format=xml (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/tusne-r-1/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/tusne-r-1/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/05/TUSNE-R-1.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/05/TUSNE-R-1.pdf
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ra86-2022/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ra86-2022/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/04/RA86-2022.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/04/RA86-2022.pdf
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ra16-2022/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ra16-2022/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA16-2022.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA16-2022.pdf
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ra107-2021/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ra107-2021/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA107-2021.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA107-2021.pdf
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ra101-2021/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ra101-2021/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA101-2021.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA101-2021.pdf
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ra-080-2021/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ra-080-2021/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-080-2021.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-080-2021.pdf
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ra-037-2021/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ra-037-2021/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-037-2021.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-037-2021.pdf
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ra-015-2021/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ra-015-2021/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-015-2021.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-015-2021.pdf
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ra-03-2021/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ra-03-2021/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-03-2021.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-03-2021.pdf
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/r-a-n-172-2020-amm/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/r-a-n-172-2020-amm/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2020/12/R.A-N%C2%B0-172-2020-AMM.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/12/R.A-N%C2%B0-172-2020-AMM.pdf
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/ra-236-2019/
+19:19:05	Warning: 	Warning moved treated for https://www.miraflores.gob.pe/ra-236-2019/ (real one is https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-236-2019.pdf)
+19:19:05	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-236-2019.pdf
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/Gestorw3b/files/pdf/5221-20999-resoluciã³n-del-tusne.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/Debug Objects: www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/ (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=1252
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=1252 to https://www.miraflores.gob.pe/los-servicios/separacion-y-divorcio/
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fseparacion-y-divorcio%2F (from https://www.miraflores.gob.pe/los-servicios/separacion-y-divorcio/)
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fseparacion-y-divorcio%2F&format=xml (from https://www.miraflores.gob.pe/los-servicios/separacion-y-divorcio/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/modelo-modificado-de-solicitud-de-separacion-convencional-01-12-2021/
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/modelo-modificado-de-solicitud-de-separacion-convencional-01-12-2021/ to https://www.miraflores.gob.pe/wp-content/uploads/2021/12/MODELO-MODIFICADO-DE-SOLICITUD-DE-SEPARACION-CONVENCIONAL.-01.12.2021.docx
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/declaracion-jurada-de-ultimo-domicilio-conyugal-web/
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/declaracion-jurada-de-ultimo-domicilio-conyugal-web/ to https://www.miraflores.gob.pe/wp-content/uploads/2021/09/DECLARACI%C3%93N-JURADA-DE-%C3%9ALTIMO-DOMICILIO-CONYUGAL-WEB.docx
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/declaracion-jurada-de-no-tener-hijos-menores-y-no-tener-hijos-mayores-con-incapacidad-web/
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/declaracion-jurada-de-no-tener-hijos-menores-y-no-tener-hijos-mayores-con-incapacidad-web/ to https://www.miraflores.gob.pe/wp-content/uploads/2021/09/DECLARACION-JURADA-DE-NO-TENER-HIJOS-MENORES-Y-NO-TENER-HIJOS-MAYORES-CON-INCAPACIDAD-WEB.docx
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/declaracion-jurada-de-no-tener-hijos-mayores-con-incapacidad-web/
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/declaracion-jurada-de-no-tener-hijos-mayores-con-incapacidad-web/ to https://www.miraflores.gob.pe/wp-content/uploads/2021/09/DECLARACION-JURADA-DE-NO-TENER-HIJOS-MAYORES-CON-INCAPACIDAD-WEB.docx
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/declaracion-jurada-de-no-tener-bienes-sujetos-al-regimen-de-sociedad-de-gananciales-web/
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/declaracion-jurada-de-no-tener-bienes-sujetos-al-regimen-de-sociedad-de-gananciales-web/ to https://www.miraflores.gob.pe/wp-content/uploads/2021/09/DECLARACI%C3%93N-JURADA-DE-NO-TENER-BIENES-SUJETOS-AL-R%C3%89GIMEN-DE-SOCIEDAD-DE-GANANCIALES-WEB.docx
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/modelo-modificado-de-solicitud-disolucion-del-vinculo-matrimonial/
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/modelo-modificado-de-solicitud-disolucion-del-vinculo-matrimonial/ to https://www.miraflores.gob.pe/wp-content/uploads/2021/12/MODELO-MODIFICADO-DE-SOLICITUD-DISOLUCION-DEL-VINCULO-MATRIMONIAL.docx
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/los-servicios/separacion-y-divorcio/Debug Objects: www.miraflores.gob.pe/los-servicios/separacion-y-divorcio/ (from https://www.miraflores.gob.pe/los-servicios/separacion-y-divorcio/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=2920
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=2920 to https://www.miraflores.gob.pe/los-servicios/ambiental/ecohogares/
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fambiental%2Fecohogares%2F (from https://www.miraflores.gob.pe/los-servicios/ambiental/ecohogares/)
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fambiental%2Fecohogares%2F&format=xml (from https://www.miraflores.gob.pe/los-servicios/ambiental/ecohogares/)
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/los-servicios/ambiental/ecohogares/Debug Objects: www.miraflores.gob.pe/los-servicios/ambiental/ecohogares/ (from https://www.miraflores.gob.pe/los-servicios/ambiental/ecohogares/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=36020
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=36020 to https://www.miraflores.gob.pe/impulsamos-tu-negocio/
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fimpulsamos-tu-negocio%2F (from https://www.miraflores.gob.pe/impulsamos-tu-negocio/)
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Fimpulsamos-tu-negocio%2F&format=xml (from https://www.miraflores.gob.pe/impulsamos-tu-negocio/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/hogar/
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/hogar/ to https://www.miraflores.gob.pe/categoriavpm/hogar/
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/artesanias/ (from https://www.miraflores.gob.pe/impulsamos-tu-negocio/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/hoteles/
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/hoteles/ to https://www.miraflores.gob.pe/?post_type=tablepress_table&p=37775
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/servicios-2/ (from https://www.miraflores.gob.pe/impulsamos-tu-negocio/)
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/emprendimiento/ (from https://www.miraflores.gob.pe/impulsamos-tu-negocio/)
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/promociona-tu-producto/ (from https://www.miraflores.gob.pe/impulsamos-tu-negocio/)
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/impulsamos-tu-negocio/Debug Objects: www.miraflores.gob.pe/impulsamos-tu-negocio/ (from https://www.miraflores.gob.pe/impulsamos-tu-negocio/)
+19:19:05	Warning: 	Moved Permanently for https://www.miraflores.gob.pe/?p=2418
+19:19:05	Warning: 	File has moved from https://www.miraflores.gob.pe/?p=2418 to https://www.miraflores.gob.pe/los-servicios/desarrollo-humano/inclusiva-accesible/nuevos-servicios/
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fdesarrollo-humano%2Finclusiva-accesible%2Fnuevos-servicios%2F (from https://www.miraflores.gob.pe/nuevos-servicios/)
+19:19:05	Error: 	"Unauthorized" (401) at link https://www.miraflores.gob.pe/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.miraflores.gob.pe%2Flos-servicios%2Fdesarrollo-humano%2Finclusiva-accesible%2Fnuevos-servicios%2F&format=xml (from https://www.miraflores.gob.pe/nuevos-servicios/)
+19:19:05	Error: 	"Not Found" (404) at link https://www.miraflores.gob.pe/_contenTempl1.asp?idpadre=5788&idcontenido=5789 (from https://www.miraflores.gob.pe/nuevos-servicios/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ORD-387_MM.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ORD-387_MM.pdf (from https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ORD-401_MM.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ORD-401_MM.pdf (from https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ANEXO_01_Microzonas.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ANEXO_01_Microzonas.pdf (from https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ANEXO_02_Ejes_de_Aprovechamiento_de_Potencial_de_DU.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/03/ANEXO_02_Ejes_de_Aprovechamiento_de_Potencial_de_DU.pdf (from https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/Modelo_de_Certificado_de_Derechos_Edificatorios.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/03/Modelo_de_Certificado_de_Derechos_Edificatorios.pdf (from https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/03/SOLICITUD_DE_ACOGIMIENTO_A_LA_ORDENANZA_387MM.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/03/SOLICITUD_DE_ACOGIMIENTO_A_LA_ORDENANZA_387MM.pdf (from https://www.miraflores.gob.pe/los-servicios/desarrollo-urbano/programa-de-conservacion-de-casonas-protegiendo-la-memoria-e-identidad-de-miraflores/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/05/BROCHURE-PARQUE-BICENTENARIO-interactivo-1.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/05/BROCHURE-PARQUE-BICENTENARIO-interactivo-1.pdf (from https://www.miraflores.gob.pe/parque-bicentenario/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/Foto-Collage_Mesa-de-trabajo-1-2.jpg
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/02/Foto-Collage_Mesa-de-trabajo-1-2.jpg (from https://www.miraflores.gob.pe/la-municipalidad/alcaldia/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/4_Mesa-de-trabajo-1.jpg
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/02/4_Mesa-de-trabajo-1.jpg (from https://www.miraflores.gob.pe/la-municipalidad/alcaldia/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/5_Mesa-de-trabajo-1-1.jpg
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/02/5_Mesa-de-trabajo-1-1.jpg (from https://www.miraflores.gob.pe/la-municipalidad/alcaldia/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/fotos-3_Mesa-de-trabajo-1-1.jpg
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/02/fotos-3_Mesa-de-trabajo-1-1.jpg (from https://www.miraflores.gob.pe/la-municipalidad/alcaldia/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/Foto-2_Mesa-de-trabajo-1-1.jpg
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/02/Foto-2_Mesa-de-trabajo-1-1.jpg (from https://www.miraflores.gob.pe/la-municipalidad/alcaldia/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/foto1_Mesa-de-trabajo-1.jpg
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/02/foto1_Mesa-de-trabajo-1.jpg (from https://www.miraflores.gob.pe/la-municipalidad/alcaldia/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/PAGOS-EN-LINEA-DESDE-LA-WEB-DE-LA-MUNICIPALIDAD-DE-MIRAFLORES-24.09.2021-plataf.digital.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/09/PAGOS-EN-LINEA-DESDE-LA-WEB-DE-LA-MUNICIPALIDAD-DE-MIRAFLORES-24.09.2021-plataf.digital.pdf (from https://www.miraflores.gob.pe/tributos-municipales/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BCP-1.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BCP-1.pdf (from https://www.miraflores.gob.pe/tributos-municipales/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/02/IBK.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/02/IBK.pdf (from https://www.miraflores.gob.pe/tributos-municipales/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BBVA.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BBVA.pdf (from https://www.miraflores.gob.pe/tributos-municipales/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/02/SCOTIABANK.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/02/SCOTIABANK.pdf (from https://www.miraflores.gob.pe/tributos-municipales/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BANBIF.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/02/BANBIF.pdf (from https://www.miraflores.gob.pe/tributos-municipales/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/12/Padron-de-Sorteo-VPM-2021.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/12/Padron-de-Sorteo-VPM-2021.pdf (from https://www.miraflores.gob.pe/vpm/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/12/ACTA-DEL-SORTEO-VPM-2021-firmada.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/12/ACTA-DEL-SORTEO-VPM-2021-firmada.pdf (from https://www.miraflores.gob.pe/vpm/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/12/D.A-N%C2%B0-013-2021-MM-DISPOSICIONES-PARA-EL-SORTEO-ANUAL-DEL-PROGRAMA-DE-INCENTIVOS-VPM-2021_06.12.2021.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/12/D.A-N%C2%B0-013-2021-MM-DISPOSICIONES-PARA-EL-SORTEO-ANUAL-DEL-PROGRAMA-DE-INCENTIVOS-VPM-2021_06.12.2021.pdf (from https://www.miraflores.gob.pe/vpm/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/12/Padr%C3%B3n-del-Sorteo-VPM-2020.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2020/12/Padr%C3%B3n-del-Sorteo-VPM-2020.pdf (from https://www.miraflores.gob.pe/vpm/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/12/ACTA-DE-SORTEO-VPM-2020.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2020/12/ACTA-DE-SORTEO-VPM-2020.pdf (from https://www.miraflores.gob.pe/vpm/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/01/ANEXO-INTEGRADO-DEL-TUPA-DE-SG-COMERCIALIZACI%C3%93N-2021.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/01/ANEXO-INTEGRADO-DEL-TUPA-DE-SG-COMERCIALIZACI%C3%93N-2021.pdf (from https://www.miraflores.gob.pe/tupa/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/08/ANEXO_TUPA_SGLEP_16_06_2021.-26.08.21.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/08/ANEXO_TUPA_SGLEP_16_06_2021.-26.08.21.pdf (from https://www.miraflores.gob.pe/tupa/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/08/3.-Anexo-TUPA-SGGRD.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/08/3.-Anexo-TUPA-SGGRD.pdf (from https://www.miraflores.gob.pe/tupa/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/10/ANEXO-CONSOLIDADO-TUPA-DESARROLLO-AMBIENTAL.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2020/10/ANEXO-CONSOLIDADO-TUPA-DESARROLLO-AMBIENTAL.pdf (from https://www.miraflores.gob.pe/tupa/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/10/ANEXO-CONSOLIDADO-TUPA-SECRETARIA-GENERAL-VIGENTE.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2020/10/ANEXO-CONSOLIDADO-TUPA-SECRETARIA-GENERAL-VIGENTE.pdf (from https://www.miraflores.gob.pe/tupa/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/08/FORMATOS-MATRIMONIOS-PDF-CORRELATIVOS.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2020/08/FORMATOS-MATRIMONIOS-PDF-CORRELATIVOS.pdf (from https://www.miraflores.gob.pe/los-servicios/registros-civiles/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/05/TUSNE-R-1.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/05/TUSNE-R-1.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/04/RA86-2022.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/04/RA86-2022.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA16-2022.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA16-2022.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA107-2021.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA107-2021.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA101-2021.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2022/02/RA101-2021.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-080-2021.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-080-2021.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-037-2021.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-037-2021.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-015-2021.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-015-2021.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-03-2021.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-03-2021.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2020/12/R.A-N%C2%B0-172-2020-AMM.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2020/12/R.A-N%C2%B0-172-2020-AMM.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+19:19:10	Warning: 	File not added due to mirror cancel: https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-236-2019.pdf
+19:19:10	Error: 	"mirror stopped by user" (-1) at link https://www.miraflores.gob.pe/wp-content/uploads/2021/09/RA-236-2019.pdf (from https://www.miraflores.gob.pe/tupa/informacion-adicional/tarifario-municipal/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 57 seconds : 883 links scanned, 650 files written (235511010 bytes overall) [226948119 bytes received at 544240 bytes/sec], 13224969 bytes transferred using HTTP compression in 236 files, ratio 21%, 12.2 requests per connection
+(152 errors, 253 warnings, 0 messages)

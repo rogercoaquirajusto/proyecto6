@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.miraflores.gob.pe	TRUE	/	FALSE	1999999999	PHPSESSID	in18m1trdrfpb446r0ov33u1pd
+
